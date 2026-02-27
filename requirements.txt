@@ -1,0 +1,11 @@
+pandas
+numpy
+yfinance
+requests
+beautifulsoup4
+google-generativeai
+scikit-learn
+matplotlib
+seaborn
+jupyter
+python-dotenv
