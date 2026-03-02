@@ -11,3 +11,5 @@ jupyter
 python-dotenv
 feedparser
 tqdm
+torch
+transformers
