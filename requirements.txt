@@ -3,9 +3,11 @@ numpy
 yfinance
 requests
 beautifulsoup4
-google-generativeai
+google-genai
 scikit-learn
 matplotlib
 seaborn
 jupyter
 python-dotenv
+feedparser
+tqdm
