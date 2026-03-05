@@ -1,0 +1,48 @@
+{
+  "baseline": {
+    "label": "baseline",
+    "overall_accuracy": 0.531512876925068,
+    "total_decisive_signals": 7727,
+    "best_strategy": "xgb_only_dynamic",
+    "market_breakdown": {
+      "US": {
+        "accuracy": 0.5260162601626016,
+        "signals": 3690
+      },
+      "Australia": {
+        "accuracy": 0.5320441988950276,
+        "signals": 1810
+      },
+      "Commodities": {
+        "accuracy": 0.5401885945217781,
+        "signals": 2227
+      }
+    },
+    "all_strategies": {
+      "xgb_only_static": {
+        "accuracy": 0.5282993740844321,
+        "signals": 7509
+      },
+      "xgb_only_dynamic": {
+        "accuracy": 0.531512876925068,
+        "signals": 7727
+      },
+      "blend_static": {
+        "accuracy": 0.5282167042889391,
+        "signals": 7974
+      },
+      "blend_dynamic": {
+        "accuracy": 0.5299926847110461,
+        "signals": 8202
+      },
+      "agreement_static": {
+        "accuracy": 0.5277646688689633,
+        "signals": 6357
+      },
+      "agreement_dynamic": {
+        "accuracy": 0.5311121253613267,
+        "signals": 6573
+      }
+    }
+  }
+}

@@ -25,8 +25,10 @@ def collect_stock_data(ticker="SPY", start_date="2015-01-01", db_path="database/
 
         # Prepare data for database
         data.reset_index(inplace=True)
-        data['Date'] = pd.to_datetime(data['Date'])
-        data['Date'] = data['Date'].dt.date # Store date without time for simplicity
+        # Rename columns to lowercase
+        data.columns = [col.lower() if isinstance(col, str) else col[0].lower() for col in data.columns]
+        data['date'] = pd.to_datetime(data['date']).dt.date
+        data['ticker'] = ticker
 
         # Connect to SQLite database
         conn = sqlite3.connect(db_path)
@@ -36,20 +38,21 @@ def collect_stock_data(ticker="SPY", start_date="2015-01-01", db_path="database/
         table_name = "stock_prices"
         cursor.execute(f"""
             CREATE TABLE IF NOT EXISTS {table_name} (
-                Date DATE PRIMARY KEY,
-                Open REAL,
-                High REAL,
-                Low REAL,
-                Close REAL,
-                AdjClose REAL,
-                Volume INTEGER
+                ticker TEXT,
+                date DATE,
+                open REAL,
+                high REAL,
+                low REAL,
+                close REAL,
+                adjclose REAL,
+                volume INTEGER,
+                PRIMARY KEY (ticker, date)
             );
         """)
         conn.commit()
 
         # Insert data into the table
-        # Using executemany for efficiency and proper handling of dates
-        data.to_sql(table_name, conn, if_exists='replace', index=False, dtype={'Date': 'DATE'})
+        data.to_sql(table_name, conn, if_exists='append', index=False, dtype={'date': 'DATE'})
         
         print(f"Successfully saved {len(data)} rows of {ticker} data to {db_path} in table {table_name}.")
 

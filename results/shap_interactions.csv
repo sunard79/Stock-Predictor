@@ -1,0 +1,2266 @@
+group,feature_a,feature_b,mean_abs_interaction
+US,vix_rank,vix_term_structure,0.012121696
+US,vix_rank,credit_spread_5d,0.010707229
+US,atr_14,yield_curve_slope,0.008509749
+US,corr_30d,vix_term_structure,0.008298796
+US,corr_30d,yield_curve_slope,0.008050912
+US,corr_30d,momentum_divergence_20d,0.00768837
+US,macd_diff,bb_low_dist,0.005951095
+US,vix_rank,yield_curve_slope,0.004953655
+US,corr_30d,moy_cos,0.0049345777
+US,atr_14,moy_cos,0.004712222
+US,volatility_7d,vix_term_structure,0.0046648523
+US,atr_14,vix_rank,0.0045908713
+US,atr_14,vix_term_structure,0.004303033
+US,corr_30d,credit_spread_5d,0.004110741
+US,corr_30d,vix_rank,0.0040458585
+US,yield_curve_slope,momentum_divergence_20d,0.003970445
+US,rsi,vix_rank,0.0039056872
+US,macd_diff,credit_spread_5d,0.0038417138
+US,vix_term_structure,credit_spread_5d,0.0037804015
+US,return_14d,vix_rank,0.0037387325
+US,yield_curve_slope,moy_cos,0.0037245436
+US,vix_term_structure,yield_curve_slope,0.0036848777
+US,atr_14,corr_30d,0.0034270806
+US,vix_term_structure,moy_sin,0.0033613523
+US,credit_spread_5d,yield_curve_slope,0.0030801222
+US,macd_diff,corr_30d,0.0030155058
+US,credit_spread_5d,momentum_divergence_20d,0.0029928023
+US,atr_14,momentum_divergence_20d,0.002738293
+US,vix_term_structure,momentum_divergence_20d,0.0026876484
+US,return_30d,vix_rank,0.0025926519
+US,vix_term_structure,moy_cos,0.0022846293
+US,bb_low_dist,corr_30d,0.0022808907
+US,volatility_7d,yield_curve_slope,0.002178314
+US,bb_low_dist,vix_rank,0.0020204799
+US,macd_diff,vix_term_structure,0.0020077114
+US,bb_high_dist,vix_rank,0.0019614466
+US,rsi,credit_spread_5d,0.001930245
+US,macd_diff,vix_rank,0.0019083717
+US,volatility_7d,atr_14,0.0018923266
+US,volatility_7d,credit_spread_5d,0.0018676204
+US,return_14d,credit_spread_5d,0.0018592936
+US,return_30d,credit_spread_5d,0.0018518377
+US,vix_rank,momentum_divergence_20d,0.0018242167
+US,bb_high_dist,vix_term_structure,0.0018089012
+US,momentum_divergence_20d,moy_cos,0.0017839653
+US,bb_low_dist,vix_term_structure,0.0015444553
+US,atr_14,bb_low_dist,0.0015234052
+US,vix_rank,moy_sin,0.0015145957
+US,yield_curve_slope,moy_sin,0.0015014408
+US,return_14d,vix_term_structure,0.0015014396
+US,return_14d,corr_30d,0.0014729069
+US,volatility_7d,vix_rank,0.001472531
+US,rsi,corr_30d,0.0014444875
+US,volatility_7d,corr_30d,0.0014242487
+US,macd_diff,bb_high_dist,0.0014166165
+US,credit_spread_5d,moy_cos,0.001388395
+US,return_30d,yield_curve_slope,0.0013791192
+US,return_7d,yield_curve_slope,0.0013640412
+US,return_30d,vix_term_structure,0.001350275
+US,moy_cos,is_month_end,0.0013274549
+US,moy_sin,moy_cos,0.0013090001
+US,bb_low_dist,moy_cos,0.0012854051
+US,vix_term_structure,dow_sin,0.0012643826
+US,return_30d,momentum_divergence_20d,0.0012620445
+US,rel_strength_spy,sector_divergence,0.0012389239
+US,return_30d,corr_30d,0.0012270448
+US,bb_low_dist,yield_curve_slope,0.0012183437
+US,macd_diff,yield_curve_slope,0.0012145409
+US,rsi,vix_term_structure,0.0011444463
+US,macd_diff,momentum_divergence_20d,0.0011413062
+US,credit_spread_5d,dow_sin,0.0011400587
+US,vix_rank,moy_cos,0.0011372392
+US,return_7d,corr_30d,0.0010801555
+US,return_30d,macd_diff,0.0010393716
+US,return_7d,atr_14,0.0010189979
+US,volatility_7d,moy_cos,0.0010019025
+US,macd_diff,atr_14,0.0009879753
+US,rsi,moy_cos,0.0009768761
+US,return_14d,yield_curve_slope,0.00097231794
+US,atr_14,credit_spread_5d,0.00096769474
+US,macd_diff,volatility_7d,0.0009519102
+US,return_7d,macd_diff,0.00094527565
+US,return_30d,volatility_7d,0.00094481296
+US,return_3d,rsi,0.0009242295
+US,rsi,atr_14,0.00091560726
+US,return_30d,atr_14,0.00090715406
+US,return_7d,credit_spread_5d,0.00089719146
+US,volatility_7d,rel_strength_spy,0.00088560884
+US,return_14d,rsi,0.0008767924
+US,bb_low_dist,momentum_divergence_20d,0.0008752984
+US,return_30d,moy_cos,0.0008680265
+US,return_1d,macd_diff,0.0008549234
+US,atr_14,moy_sin,0.0008436163
+US,bb_low_dist,credit_spread_5d,0.00083668047
+US,return_1d,return_14d,0.00082096574
+US,rsi,yield_curve_slope,0.0008019273
+US,rsi,dow_sin,0.00078670325
+US,corr_30d,moy_sin,0.0007799931
+US,rsi,macd_diff,0.00077809044
+US,return_1d,vix_rank,0.00077531824
+US,obv_trend,vix_rank,0.0007558637
+US,credit_spread_5d,moy_sin,0.00070318003
+US,volatility_7d,momentum_divergence_20d,0.00070276257
+US,return_3d,macd_diff,0.00070148974
+US,vol_roc_10,corr_30d,0.00069845666
+US,obv_trend,vix_term_structure,0.00069614354
+US,macd_diff,moy_cos,0.00069394015
+US,volatility_7d,moy_sin,0.0006764755
+US,rsi,volatility_7d,0.00067105854
+US,return_7d,vix_rank,0.0006670918
+US,volatility_7d,bb_high_dist,0.00065192993
+US,return_14d,bb_low_dist,0.0006501516
+US,return_14d,atr_14,0.00063038646
+US,atr_14,rel_strength_spy,0.00062876503
+US,macd_diff,moy_sin,0.00061525346
+US,momentum_divergence_20d,moy_sin,0.00061225396
+US,return_3d,vix_rank,0.00060921814
+US,return_14d,momentum_divergence_20d,0.0006072267
+US,rsi,momentum_divergence_20d,0.0005992915
+US,return_14d,macd_diff,0.00058518356
+US,return_3d,corr_30d,0.0005833463
+US,bb_high_dist,corr_30d,0.0005826194
+US,return_14d,moy_cos,0.0005769841
+US,return_7d,return_14d,0.00057648605
+US,atr_14,bb_high_dist,0.000576218
+US,return_7d,moy_cos,0.00056982343
+US,return_1d,yield_curve_slope,0.00053857453
+US,return_1d,credit_spread_5d,0.0005350197
+US,return_7d,vix_term_structure,0.00052920316
+US,vix_rank,dow_sin,0.00052554737
+US,return_30d,bb_high_dist,0.00051840866
+US,obv_trend,yield_curve_slope,0.0005116836
+US,return_14d,return_30d,0.0005062762
+US,yield_curve_slope,is_month_end,0.00049616734
+US,volatility_7d,bb_low_dist,0.0004883593
+US,return_3d,bb_low_dist,0.0004815234
+US,return_3d,vix_term_structure,0.0004809084
+US,return_1d,rel_strength_spy,0.000480211
+US,return_3d,bb_high_dist,0.0004752479
+US,return_7d,rsi,0.00046812106
+US,return_3d,yield_curve_slope,0.0004616017
+US,rsi,bb_high_dist,0.00045776815
+US,return_1d,corr_30d,0.0004500426
+US,return_1d,volatility_7d,0.00044710436
+US,return_14d,bb_high_dist,0.0004467821
+US,vix_rank,rel_strength_spy,0.00043825543
+US,return_1d,moy_cos,0.0004215614
+US,vol_roc_10,vix_rank,0.00041532752
+US,macd_diff,rel_strength_spy,0.0004066616
+US,return_7d,momentum_divergence_20d,0.00040437674
+US,return_1d,atr_14,0.0004036275
+US,atr_14,obv_trend,0.00039804654
+US,return_14d,volatility_7d,0.00039656798
+US,return_1d,momentum_divergence_20d,0.00038956906
+US,corr_30d,dow_sin,0.00038912133
+US,yield_curve_slope,dow_sin,0.00038611796
+US,return_1d,vix_term_structure,0.000380429
+US,bb_high_dist,yield_curve_slope,0.00037743544
+US,macd_diff,obv_trend,0.00037516368
+US,return_3d,atr_14,0.00037231564
+US,return_3d,credit_spread_5d,0.00035698724
+US,return_1d,sector_divergence,0.00035635734
+US,bb_high_dist,credit_spread_5d,0.0003538675
+US,return_1d,rsi,0.0003424691
+US,atr_14,vol_roc_10,0.0003375102
+US,return_7d,volatility_7d,0.0003362262
+US,rsi,bb_low_dist,0.00033523608
+US,macd_diff,dow_sin,0.00031949722
+US,bb_high_dist,moy_cos,0.00030995536
+US,return_3d,moy_cos,0.00029887573
+US,vol_roc_10,yield_curve_slope,0.00029814345
+US,return_14d,rel_strength_spy,0.00029536182
+US,corr_30d,dow_cos,0.00028855735
+US,rel_strength_spy,moy_cos,0.0002807185
+US,vix_term_structure,is_month_end,0.00027102852
+US,bb_low_dist,dow_sin,0.00027100343
+US,return_7d,moy_sin,0.00026870877
+US,return_1d,bb_low_dist,0.00026628916
+US,credit_spread_5d,dow_cos,0.00025714905
+US,bb_low_dist,rel_strength_spy,0.00025667067
+US,return_30d,rel_strength_spy,0.0002519035
+US,return_7d,return_30d,0.00024460498
+US,rel_strength_spy,momentum_divergence_20d,0.00024321066
+US,vol_roc_10,momentum_divergence_20d,0.00023919795
+US,rsi,rel_strength_spy,0.00023905378
+US,dow_sin,moy_cos,0.00023545975
+US,return_3d,return_30d,0.000235168
+US,return_7d,bb_low_dist,0.00023161029
+US,return_7d,bb_high_dist,0.00022872379
+US,bb_high_dist,obv_trend,0.00022754875
+US,momentum_divergence_20d,dow_sin,0.00022566579
+US,return_30d,bb_low_dist,0.00022471987
+US,rel_strength_spy,credit_spread_5d,0.00021948431
+US,vix_rank,sector_avg_sentiment,0.00021892485
+US,bb_high_dist,bb_low_dist,0.00021875932
+US,vol_roc_10,credit_spread_5d,0.00021540232
+US,return_7d,obv_trend,0.00021481067
+US,vol_roc_10,vix_term_structure,0.0002136499
+US,rsi,obv_trend,0.00021071492
+US,vix_term_structure,dow_cos,0.00020820873
+US,return_1d,return_30d,0.00020775135
+US,return_14d,vol_roc_10,0.00020405062
+US,atr_14,dow_sin,0.00020397511
+US,bb_low_dist,is_month_end,0.00019880725
+US,return_30d,obv_trend,0.0001972944
+US,obv_trend,dow_sin,0.00019725556
+US,macd_diff,vol_roc_10,0.00019710416
+US,vix_rank,is_month_end,0.00019707519
+US,return_3d,volatility_7d,0.00019306706
+US,bb_high_dist,momentum_divergence_20d,0.00019095695
+US,obv_trend,moy_cos,0.00018092447
+US,bb_high_dist,moy_sin,0.00017969252
+US,vol_roc_10,moy_cos,0.00017753418
+US,bb_low_dist,vol_roc_10,0.00017649416
+US,return_1d,bb_high_dist,0.00017646905
+US,rsi,moy_sin,0.00016960088
+US,return_30d,dow_sin,0.00016624606
+US,corr_30d,rel_strength_spy,0.00016429008
+US,return_3d,momentum_divergence_20d,0.00016021756
+US,bb_high_dist,is_month_end,0.0001599468
+US,return_30d,rsi,0.00015974669
+US,return_7d,sector_divergence,0.00015776513
+US,corr_30d,is_month_end,0.00015682082
+US,atr_14,sector_divergence,0.00015562064
+US,bb_low_dist,obv_trend,0.00015146127
+US,return_30d,vol_roc_10,0.00015137994
+US,return_7d,rel_strength_spy,0.00014939136
+US,return_1d,moy_sin,0.00014881886
+US,return_1d,return_7d,0.00014619506
+US,rel_strength_spy,yield_curve_slope,0.00014567918
+US,volatility_7d,vol_roc_10,0.0001456355
+US,rel_strength_spy,vix_term_structure,0.00014521921
+US,sector_divergence,momentum_divergence_20d,0.0001448852
+US,volatility_7d,sector_divergence,0.00014434922
+US,return_14d,moy_sin,0.00014022562
+US,volatility_7d,dow_sin,0.00013762452
+US,sector_divergence,moy_cos,0.00013316867
+US,obv_trend,momentum_divergence_20d,0.00013244917
+US,bb_high_dist,rel_strength_spy,0.00013118566
+US,bb_low_dist,sector_divergence,0.00013102697
+US,volatility_7d,obv_trend,0.00012960825
+US,credit_spread_5d,is_month_end,0.0001292989
+US,yield_curve_slope,dow_cos,0.00012884197
+US,obv_trend,rel_strength_spy,0.00012791788
+US,bb_low_dist,moy_sin,0.000127871
+US,return_30d,sector_divergence,0.00012749489
+US,atr_14,is_month_end,0.00012624035
+US,return_14d,dow_sin,0.0001262333
+US,return_7d,vol_roc_10,0.00012598412
+US,rsi,vol_roc_10,0.0001246792
+US,return_3d,vol_roc_10,0.000123604
+US,sector_avg_sentiment,momentum_divergence_20d,0.00012215003
+US,return_1d,dow_sin,0.00012153077
+US,obv_trend,dow_cos,0.0001206793
+US,return_1d,sector_avg_sentiment,0.00011724123
+US,sector_divergence,credit_spread_5d,0.00011291838
+US,sector_avg_sentiment,vix_term_structure,0.00011243723
+US,return_1d,return_3d,0.00011206901
+US,obv_trend,credit_spread_5d,0.00011089208
+US,atr_14,dow_cos,0.00010992636
+US,rsi,sector_divergence,0.00010938319
+US,obv_trend,moy_sin,0.000105644176
+US,return_3d,rel_strength_spy,0.00010347854
+US,obv_trend,corr_30d,0.000101703845
+US,return_1d,obv_trend,9.942479e-05
+US,vol_roc_10,rel_strength_spy,9.796188e-05
+US,obv_trend,sector_divergence,9.614275e-05
+US,return_14d,obv_trend,9.537419e-05
+US,return_3d,return_14d,9.412631e-05
+US,return_7d,is_month_end,9.265788e-05
+US,vol_roc_10,dow_sin,9.254514e-05
+US,bb_high_dist,vol_roc_10,9.239382e-05
+US,sector_divergence,vix_term_structure,9.098712e-05
+US,return_30d,moy_sin,9.065657e-05
+US,rel_strength_spy,moy_sin,8.992995e-05
+US,rel_strength_spy,dow_sin,8.958072e-05
+US,vol_roc_10,sector_divergence,8.751614e-05
+US,vix_rank,dow_cos,8.6875916e-05
+US,return_3d,dow_sin,8.653905e-05
+US,bb_high_dist,sector_divergence,8.468909e-05
+US,return_1d,vol_roc_10,8.25496e-05
+US,volatility_7d,is_month_end,8.174383e-05
+US,moy_sin,is_month_end,7.952674e-05
+US,dow_sin,moy_sin,7.770575e-05
+US,vix_rank,sector_divergence,7.215781e-05
+US,momentum_divergence_20d,is_month_end,6.924488e-05
+US,volatility_7d,dow_cos,6.889311e-05
+US,macd_diff,sector_divergence,6.72851e-05
+US,return_7d,dow_sin,6.367891e-05
+US,return_3d,sector_divergence,6.256412e-05
+US,sector_divergence,moy_sin,5.898751e-05
+US,vol_roc_10,obv_trend,5.5522254e-05
+US,dow_cos,moy_cos,5.5176384e-05
+US,rel_strength_spy,sector_avg_sentiment,5.3535034e-05
+US,return_14d,sector_avg_sentiment,4.9288898e-05
+US,corr_30d,sector_divergence,4.8759746e-05
+US,momentum_divergence_20d,dow_cos,4.799696e-05
+US,vol_roc_10,moy_sin,4.6584817e-05
+US,return_3d,return_7d,4.292334e-05
+US,sector_divergence,yield_curve_slope,4.217361e-05
+US,return_14d,sector_divergence,4.167817e-05
+US,return_3d,moy_sin,4.107785e-05
+US,macd_diff,dow_cos,3.856139e-05
+US,return_3d,obv_trend,3.705294e-05
+US,return_14d,dow_cos,3.5277302e-05
+US,return_30d,dow_cos,3.465632e-05
+US,return_3d,is_month_end,3.3560875e-05
+US,return_1d,dow_cos,3.303339e-05
+US,return_30d,is_month_end,3.301492e-05
+US,rsi,dow_cos,3.2837597e-05
+US,rsi,is_month_end,3.2353877e-05
+US,sector_avg_sentiment,dow_sin,3.0167806e-05
+US,return_3d,dow_cos,2.9878229e-05
+US,return_14d,is_month_end,2.8935929e-05
+US,return_7d,dow_cos,2.854254e-05
+US,macd_diff,is_month_end,2.6796046e-05
+US,sector_divergence,dow_sin,2.5550537e-05
+US,bb_low_dist,dow_cos,2.4758683e-05
+US,sentiment_score,sector_avg_sentiment,2.1844173e-05
+US,bb_high_dist,dow_sin,2.0992717e-05
+US,obv_trend,is_month_end,2.0179225e-05
+US,dow_sin,is_month_end,1.7425058e-05
+US,sentiment_score,vix_term_structure,1.4042144e-05
+US,vix_rank,sentiment_score,1.2609599e-05
+US,rsi,sector_avg_sentiment,1.1593029e-05
+US,return_1d,is_month_end,1.10091905e-05
+US,macd_diff,sector_avg_sentiment,1.0863301e-05
+US,corr_30d,sector_avg_sentiment,9.79754e-06
+US,bb_high_dist,sector_avg_sentiment,9.537949e-06
+US,rel_strength_spy,is_month_end,9.509774e-06
+US,sector_avg_sentiment,yield_curve_slope,9.380667e-06
+US,rel_strength_spy,sentiment_score,8.9917285e-06
+US,sector_avg_sentiment,sentiment_divergence,8.6161e-06
+US,bb_high_dist,dow_cos,7.750553e-06
+US,sector_avg_sentiment,credit_spread_5d,7.1952027e-06
+US,bb_high_dist,sentiment_score,6.312813e-06
+US,rel_strength_spy,dow_cos,5.8017604e-06
+US,dow_cos,moy_sin,5.6008744e-06
+US,vol_roc_10,is_month_end,4.7334406e-06
+US,dow_sin,dow_cos,4.316992e-06
+US,sector_avg_sentiment,moy_cos,3.8878766e-06
+US,vol_roc_10,dow_cos,3.8033356e-06
+US,sector_divergence,is_month_end,3.7039113e-06
+US,sector_divergence,dow_cos,3.5240746e-06
+US,volatility_7d,sector_avg_sentiment,3.4951797e-06
+US,sector_avg_sentiment,sector_sentiment_momentum,3.4903087e-06
+US,sector_avg_sentiment,sector_divergence,2.7355547e-06
+US,vol_roc_10,sector_avg_sentiment,2.5149031e-06
+US,return_7d,sector_avg_sentiment,2.4016217e-06
+US,return_3d,sector_avg_sentiment,2.1443275e-06
+US,atr_14,sector_avg_sentiment,2.1323028e-06
+US,obv_trend,sector_avg_sentiment,2.0629345e-06
+US,return_30d,sector_avg_sentiment,1.769741e-06
+US,sentiment_score,dow_sin,1.6706697e-06
+US,sector_avg_sentiment,moy_sin,1.465095e-06
+US,bb_low_dist,sector_avg_sentiment,1.3918132e-06
+US,sentiment_score,momentum_divergence_20d,9.75094e-07
+US,sector_sentiment_momentum,dow_sin,8.772829e-07
+US,sentiment_score,yield_curve_slope,6.59323e-07
+US,sentiment_score,credit_spread_5d,6.109611e-07
+US,vix_rank,sentiment_divergence,5.9611324e-07
+US,return_14d,sentiment_divergence,5.490417e-07
+US,return_14d,sentiment_score,4.084978e-07
+US,obv_trend,sentiment_score,2.4806513e-07
+US,sector_avg_sentiment,is_month_end,2.1248624e-07
+US,sector_avg_sentiment,dow_cos,4.7683244e-08
+US,atr_14,sentiment_score,1.8915145e-08
+US,vol_roc_10,sentiment_score,3.4270997e-09
+US,return_1d,sector_sentiment_momentum,0.0
+US,bb_high_dist,sentiment_divergence,0.0
+US,bb_high_dist,sector_sentiment_momentum,0.0
+US,obv_trend,sector_sentiment_momentum,0.0
+US,obv_trend,sentiment_divergence,0.0
+US,vol_roc_10,sector_sentiment_momentum,0.0
+US,vol_roc_10,sentiment_divergence,0.0
+US,vol_roc_10,market_encoded,0.0
+US,return_3d,sentiment_score,0.0
+US,momentum_divergence_20d,market_encoded,0.0
+US,yield_curve_slope,market_encoded,0.0
+US,credit_spread_5d,market_encoded,0.0
+US,dow_sin,market_encoded,0.0
+US,dow_cos,is_month_end,0.0
+US,dow_cos,market_encoded,0.0
+US,moy_sin,market_encoded,0.0
+US,bb_low_dist,market_encoded,0.0
+US,return_3d,sentiment_divergence,0.0
+US,return_1d,sentiment_divergence,0.0
+US,return_1d,sentiment_score,0.0
+US,return_1d,market_encoded,0.0
+US,macd_diff,sector_sentiment_momentum,0.0
+US,corr_30d,sector_sentiment_momentum,0.0
+US,vix_rank,sector_sentiment_momentum,0.0
+US,macd_diff,market_encoded,0.0
+US,volatility_7d,sector_sentiment_momentum,0.0
+US,volatility_7d,sentiment_divergence,0.0
+US,volatility_7d,sentiment_score,0.0
+US,corr_30d,sentiment_score,0.0
+US,volatility_7d,market_encoded,0.0
+US,bb_low_dist,sector_sentiment_momentum,0.0
+US,bb_low_dist,sentiment_divergence,0.0
+US,bb_high_dist,market_encoded,0.0
+US,return_30d,market_encoded,0.0
+US,return_30d,sentiment_score,0.0
+US,return_30d,sentiment_divergence,0.0
+US,return_30d,sector_sentiment_momentum,0.0
+US,sentiment_score,sector_divergence,0.0
+US,sentiment_score,sector_sentiment_momentum,0.0
+US,sentiment_score,sentiment_divergence,0.0
+US,return_14d,market_encoded,0.0
+US,macd_diff,sentiment_score,0.0
+US,rsi,market_encoded,0.0
+US,rsi,sentiment_divergence,0.0
+US,rsi,sector_sentiment_momentum,0.0
+US,rel_strength_spy,sector_sentiment_momentum,0.0
+US,rel_strength_spy,sentiment_divergence,0.0
+US,vix_rank,market_encoded,0.0
+US,rel_strength_spy,market_encoded,0.0
+US,rsi,sentiment_score,0.0
+US,obv_trend,market_encoded,0.0
+US,atr_14,sector_sentiment_momentum,0.0
+US,atr_14,market_encoded,0.0
+US,atr_14,sentiment_divergence,0.0
+US,bb_low_dist,sentiment_score,0.0
+US,corr_30d,market_encoded,0.0
+US,corr_30d,sentiment_divergence,0.0
+US,macd_diff,sentiment_divergence,0.0
+US,sentiment_score,moy_sin,0.0
+US,sector_avg_sentiment,market_encoded,0.0
+US,sentiment_divergence,sector_sentiment_momentum,0.0
+US,sentiment_score,moy_cos,0.0
+US,sentiment_score,market_encoded,0.0
+US,sentiment_score,dow_cos,0.0
+US,sentiment_score,is_month_end,0.0
+US,return_7d,market_encoded,0.0
+US,sentiment_divergence,market_encoded,0.0
+US,sentiment_divergence,moy_cos,0.0
+US,sentiment_divergence,is_month_end,0.0
+US,sentiment_divergence,moy_sin,0.0
+US,sentiment_divergence,dow_cos,0.0
+US,sentiment_divergence,momentum_divergence_20d,0.0
+US,sentiment_divergence,dow_sin,0.0
+US,sentiment_divergence,vix_term_structure,0.0
+US,sentiment_divergence,sector_divergence,0.0
+US,sentiment_divergence,yield_curve_slope,0.0
+US,sentiment_divergence,credit_spread_5d,0.0
+US,return_3d,sector_sentiment_momentum,0.0
+US,return_3d,market_encoded,0.0
+US,return_7d,sentiment_score,0.0
+US,return_14d,sector_sentiment_momentum,0.0
+US,sector_sentiment_momentum,credit_spread_5d,0.0
+US,sector_sentiment_momentum,vix_term_structure,0.0
+US,sector_sentiment_momentum,sector_divergence,0.0
+US,return_7d,sector_sentiment_momentum,0.0
+US,return_7d,sentiment_divergence,0.0
+US,sector_sentiment_momentum,yield_curve_slope,0.0
+US,sector_sentiment_momentum,momentum_divergence_20d,0.0
+US,sector_sentiment_momentum,dow_cos,0.0
+US,sector_sentiment_momentum,market_encoded,0.0
+US,sector_sentiment_momentum,is_month_end,0.0
+US,sector_sentiment_momentum,moy_cos,0.0
+US,sector_sentiment_momentum,moy_sin,0.0
+US,sector_divergence,market_encoded,0.0
+US,vix_term_structure,market_encoded,0.0
+US,moy_cos,market_encoded,0.0
+US,is_month_end,market_encoded,0.0
+Australia,vix_rank,vix_term_structure,0.006904591
+Australia,atr_14,rel_strength_spy,0.0062799514
+Australia,vix_term_structure,yield_curve_slope,0.0061385785
+Australia,atr_14,sector_divergence,0.006044307
+Australia,bb_low_dist,rel_strength_spy,0.0055517843
+Australia,return_30d,vix_term_structure,0.0046708854
+Australia,rel_strength_spy,sector_divergence,0.004323575
+Australia,volatility_7d,sector_divergence,0.0040918095
+Australia,vix_term_structure,credit_spread_5d,0.0040075695
+Australia,corr_30d,yield_curve_slope,0.003885377
+Australia,return_7d,yield_curve_slope,0.0034498395
+Australia,bb_low_dist,corr_30d,0.003347655
+Australia,volatility_7d,rel_strength_spy,0.0032991709
+Australia,bb_high_dist,vix_term_structure,0.003166451
+Australia,yield_curve_slope,momentum_divergence_20d,0.0031546906
+Australia,obv_trend,vix_rank,0.0031513714
+Australia,volatility_7d,vix_term_structure,0.0030597511
+Australia,atr_14,vix_term_structure,0.0030573618
+Australia,rel_strength_spy,vix_term_structure,0.0030157403
+Australia,corr_30d,vix_term_structure,0.003003598
+Australia,volatility_7d,vix_rank,0.0029103823
+Australia,credit_spread_5d,yield_curve_slope,0.0028208604
+Australia,rsi,momentum_divergence_20d,0.0027063277
+Australia,corr_30d,sector_divergence,0.0027016038
+Australia,volatility_7d,momentum_divergence_20d,0.0026769675
+Australia,rsi,vix_rank,0.0026594615
+Australia,volatility_7d,bb_low_dist,0.0025488178
+Australia,volatility_7d,corr_30d,0.0025333925
+Australia,vix_rank,credit_spread_5d,0.0024791206
+Australia,return_30d,volatility_7d,0.0024444775
+Australia,vix_rank,momentum_divergence_20d,0.0024217984
+Australia,rsi,corr_30d,0.002303626
+Australia,return_30d,atr_14,0.0022964103
+Australia,vix_rank,yield_curve_slope,0.0022799773
+Australia,atr_14,momentum_divergence_20d,0.0022577082
+Australia,atr_14,yield_curve_slope,0.002238857
+Australia,bb_low_dist,vix_rank,0.0021903978
+Australia,bb_high_dist,corr_30d,0.002189824
+Australia,bb_low_dist,sector_divergence,0.0020506773
+Australia,return_1d,rel_strength_spy,0.002028165
+Australia,return_14d,vix_rank,0.0019684024
+Australia,atr_14,credit_spread_5d,0.0019648196
+Australia,atr_14,corr_30d,0.0019517143
+Australia,return_14d,rel_strength_spy,0.0019415357
+Australia,rsi,credit_spread_5d,0.0018241529
+Australia,bb_high_dist,vix_rank,0.0018148043
+Australia,sector_divergence,vix_term_structure,0.001800931
+Australia,atr_14,vix_rank,0.0017944383
+Australia,bb_low_dist,vix_term_structure,0.0017859874
+Australia,vol_roc_10,sector_divergence,0.0017644692
+Australia,rsi,bb_low_dist,0.0017627119
+Australia,yield_curve_slope,moy_cos,0.0017619807
+Australia,volatility_7d,atr_14,0.0017565672
+Australia,return_14d,bb_low_dist,0.0017448111
+Australia,rsi,volatility_7d,0.0017300199
+Australia,volatility_7d,moy_cos,0.0017283519
+Australia,rel_strength_spy,yield_curve_slope,0.0017016266
+Australia,corr_30d,moy_cos,0.0016610299
+Australia,corr_30d,vix_rank,0.0016470862
+Australia,return_14d,corr_30d,0.0016409195
+Australia,volatility_7d,yield_curve_slope,0.001618724
+Australia,vix_rank,moy_cos,0.0015361179
+Australia,return_3d,corr_30d,0.0014520127
+Australia,volatility_7d,credit_spread_5d,0.0014394234
+Australia,corr_30d,momentum_divergence_20d,0.0014343272
+Australia,vix_rank,rel_strength_spy,0.0014231964
+Australia,return_14d,bb_high_dist,0.0013947764
+Australia,vol_roc_10,momentum_divergence_20d,0.0013730514
+Australia,bb_low_dist,credit_spread_5d,0.0012981227
+Australia,rsi,moy_cos,0.0012962531
+Australia,bb_high_dist,yield_curve_slope,0.0012929303
+Australia,return_7d,vix_rank,0.0012847094
+Australia,macd_diff,rel_strength_spy,0.0012616486
+Australia,return_30d,vix_rank,0.0012324221
+Australia,credit_spread_5d,moy_cos,0.0012222822
+Australia,return_1d,vix_rank,0.0012184948
+Australia,return_14d,moy_cos,0.0012183223
+Australia,yield_curve_slope,moy_sin,0.0012151331
+Australia,return_7d,vix_term_structure,0.0012143237
+Australia,credit_spread_5d,momentum_divergence_20d,0.0012133829
+Australia,corr_30d,rel_strength_spy,0.0012121666
+Australia,vix_term_structure,moy_cos,0.0011708034
+Australia,return_7d,corr_30d,0.0011668564
+Australia,vol_roc_10,yield_curve_slope,0.0011534276
+Australia,bb_low_dist,moy_sin,0.0011360784
+Australia,return_30d,credit_spread_5d,0.001113732
+Australia,return_30d,rel_strength_spy,0.0010975017
+Australia,macd_diff,sector_divergence,0.0010944287
+Australia,return_1d,sector_divergence,0.0010912474
+Australia,rel_strength_spy,momentum_divergence_20d,0.0010910865
+Australia,bb_high_dist,rel_strength_spy,0.0010764671
+Australia,macd_diff,credit_spread_5d,0.0010748485
+Australia,vix_term_structure,momentum_divergence_20d,0.0010639309
+Australia,sector_divergence,yield_curve_slope,0.0010609829
+Australia,return_7d,credit_spread_5d,0.0010572097
+Australia,return_7d,momentum_divergence_20d,0.0010555894
+Australia,rsi,yield_curve_slope,0.0010493501
+Australia,return_30d,sector_divergence,0.001029408
+Australia,return_30d,rsi,0.0009867518
+Australia,obv_trend,moy_cos,0.0009793151
+Australia,return_14d,vix_term_structure,0.00096810405
+Australia,return_14d,atr_14,0.000959697
+Australia,rsi,atr_14,0.00095200527
+Australia,vix_term_structure,moy_sin,0.0009515459
+Australia,return_3d,vix_term_structure,0.00094685366
+Australia,return_3d,volatility_7d,0.00093594973
+Australia,atr_14,vol_roc_10,0.0009320409
+Australia,macd_diff,corr_30d,0.0009146648
+Australia,return_14d,moy_sin,0.00091387384
+Australia,atr_14,moy_sin,0.00090425
+Australia,momentum_divergence_20d,moy_cos,0.0009001869
+Australia,moy_sin,moy_cos,0.0008985117
+Australia,rsi,sector_divergence,0.0008893284
+Australia,corr_30d,credit_spread_5d,0.00087723276
+Australia,return_14d,sector_divergence,0.0008730803
+Australia,rsi,rel_strength_spy,0.0008708672
+Australia,return_14d,credit_spread_5d,0.00086818787
+Australia,rsi,bb_high_dist,0.0008641431
+Australia,volatility_7d,bb_high_dist,0.00086297287
+Australia,credit_spread_5d,moy_sin,0.0008613183
+Australia,rel_strength_spy,moy_sin,0.0008561157
+Australia,return_30d,macd_diff,0.00084816903
+Australia,return_30d,corr_30d,0.0008468952
+Australia,return_1d,atr_14,0.00084528123
+Australia,bb_low_dist,momentum_divergence_20d,0.00084207364
+Australia,volatility_7d,obv_trend,0.0008336992
+Australia,vol_roc_10,vix_rank,0.0008208506
+Australia,sector_divergence,momentum_divergence_20d,0.0008145821
+Australia,bb_high_dist,credit_spread_5d,0.0008110087
+Australia,vol_roc_10,corr_30d,0.00080826104
+Australia,rsi,vix_term_structure,0.000800613
+Australia,atr_14,obv_trend,0.00079053815
+Australia,vix_rank,sector_divergence,0.00078439247
+Australia,return_7d,rsi,0.0007781211
+Australia,vix_term_structure,dow_sin,0.0007752919
+Australia,bb_high_dist,momentum_divergence_20d,0.0007717502
+Australia,return_7d,moy_sin,0.0007633585
+Australia,vix_rank,moy_sin,0.00074286404
+Australia,obv_trend,rel_strength_spy,0.0007386599
+Australia,atr_14,bb_high_dist,0.000734486
+Australia,return_3d,bb_high_dist,0.0007302867
+Australia,obv_trend,credit_spread_5d,0.00072840176
+Australia,return_30d,bb_low_dist,0.0007187161
+Australia,macd_diff,yield_curve_slope,0.0007074327
+Australia,macd_diff,volatility_7d,0.00070057856
+Australia,sector_divergence,credit_spread_5d,0.0007000481
+Australia,return_14d,volatility_7d,0.000699312
+Australia,obv_trend,vix_term_structure,0.0006952519
+Australia,return_14d,yield_curve_slope,0.0006952079
+Australia,sector_divergence,moy_cos,0.0006921695
+Australia,return_30d,momentum_divergence_20d,0.00068634946
+Australia,return_1d,rsi,0.0006810243
+Australia,vol_roc_10,rel_strength_spy,0.0006798488
+Australia,return_7d,return_30d,0.0006662122
+Australia,return_7d,atr_14,0.00066119153
+Australia,return_3d,atr_14,0.00064975675
+Australia,rel_strength_spy,credit_spread_5d,0.0006492593
+Australia,return_30d,moy_cos,0.0006253177
+Australia,bb_low_dist,yield_curve_slope,0.0006242107
+Australia,atr_14,moy_cos,0.00061862404
+Australia,return_14d,obv_trend,0.0006015794
+Australia,macd_diff,atr_14,0.00060139864
+Australia,volatility_7d,vol_roc_10,0.00059537403
+Australia,vix_rank,dow_sin,0.00058592873
+Australia,obv_trend,sector_divergence,0.00058555603
+Australia,return_3d,credit_spread_5d,0.00058543024
+Australia,return_3d,moy_cos,0.00058247446
+Australia,return_7d,rel_strength_spy,0.00058112177
+Australia,return_1d,yield_curve_slope,0.00057615095
+Australia,return_7d,dow_sin,0.0005689162
+Australia,bb_high_dist,sector_divergence,0.0005648763
+Australia,return_3d,return_14d,0.0005629852
+Australia,macd_diff,bb_low_dist,0.0005540902
+Australia,macd_diff,vol_roc_10,0.00055337
+Australia,bb_high_dist,bb_low_dist,0.00054911873
+Australia,vol_roc_10,credit_spread_5d,0.00054479163
+Australia,return_30d,yield_curve_slope,0.00054020074
+Australia,macd_diff,vix_term_structure,0.0005381378
+Australia,return_30d,moy_sin,0.00053539843
+Australia,return_7d,sector_divergence,0.0005312029
+Australia,return_1d,volatility_7d,0.0005297465
+Australia,atr_14,bb_low_dist,0.0005273915
+Australia,return_1d,bb_low_dist,0.0005225416
+Australia,return_7d,volatility_7d,0.00052168424
+Australia,return_14d,vol_roc_10,0.00051726267
+Australia,return_14d,rsi,0.00051539467
+Australia,rsi,moy_sin,0.00051418337
+Australia,return_30d,dow_sin,0.00050870865
+Australia,return_3d,return_30d,0.00050706416
+Australia,return_14d,momentum_divergence_20d,0.0004969372
+Australia,rel_strength_spy,dow_sin,0.00049664883
+Australia,bb_low_dist,moy_cos,0.000492524
+Australia,return_14d,macd_diff,0.00049150834
+Australia,return_3d,rel_strength_spy,0.0004880579
+Australia,return_7d,obv_trend,0.0004799172
+Australia,return_1d,return_30d,0.00047060268
+Australia,bb_high_dist,moy_sin,0.00046137735
+Australia,momentum_divergence_20d,moy_sin,0.0004548206
+Australia,obv_trend,yield_curve_slope,0.00044829736
+Australia,volatility_7d,dow_sin,0.00044721927
+Australia,corr_30d,moy_sin,0.00044555598
+Australia,obv_trend,corr_30d,0.00044167938
+Australia,vol_roc_10,vix_term_structure,0.0004285561
+Australia,bb_low_dist,obv_trend,0.00042825902
+Australia,vol_roc_10,moy_sin,0.00040436903
+Australia,macd_diff,vix_rank,0.0004043388
+Australia,return_30d,bb_high_dist,0.00038843713
+Australia,return_3d,vol_roc_10,0.00038777784
+Australia,return_3d,obv_trend,0.00038716427
+Australia,rsi,macd_diff,0.00038641534
+Australia,return_1d,credit_spread_5d,0.0003769119
+Australia,return_1d,vol_roc_10,0.00037620962
+Australia,return_3d,yield_curve_slope,0.00037333978
+Australia,obv_trend,momentum_divergence_20d,0.00035475602
+Australia,return_14d,return_30d,0.00034706015
+Australia,macd_diff,moy_sin,0.00034040582
+Australia,rel_strength_spy,moy_cos,0.0003384852
+Australia,return_1d,vix_term_structure,0.00033832
+Australia,return_7d,bb_high_dist,0.00033555288
+Australia,return_1d,momentum_divergence_20d,0.0003341894
+Australia,macd_diff,momentum_divergence_20d,0.00032428803
+Australia,return_7d,vol_roc_10,0.0003115334
+Australia,return_7d,bb_low_dist,0.00030614913
+Australia,bb_high_dist,vol_roc_10,0.0003057866
+Australia,sector_divergence,dow_sin,0.00030125375
+Australia,vol_roc_10,moy_cos,0.00029945385
+Australia,obv_trend,moy_sin,0.00029170726
+Australia,bb_high_dist,dow_sin,0.0002870318
+Australia,credit_spread_5d,dow_cos,0.00027775546
+Australia,return_7d,macd_diff,0.00027749923
+Australia,macd_diff,bb_high_dist,0.00027541735
+Australia,momentum_divergence_20d,dow_sin,0.0002753127
+Australia,return_3d,sector_divergence,0.0002730974
+Australia,rsi,vol_roc_10,0.00027223947
+Australia,return_7d,return_14d,0.00026812748
+Australia,return_1d,corr_30d,0.00026533412
+Australia,return_7d,moy_cos,0.0002612499
+Australia,sector_divergence,moy_sin,0.00025982768
+Australia,sector_divergence,dow_cos,0.00024941892
+Australia,bb_high_dist,moy_cos,0.00024922175
+Australia,return_3d,rsi,0.00024893554
+Australia,vol_roc_10,obv_trend,0.00024186728
+Australia,vix_term_structure,dow_cos,0.00024081323
+Australia,bb_low_dist,vol_roc_10,0.00022999123
+Australia,return_30d,obv_trend,0.00022894915
+Australia,return_1d,return_7d,0.00022819042
+Australia,bb_low_dist,dow_sin,0.0002280176
+Australia,macd_diff,moy_cos,0.00022527891
+Australia,return_1d,return_14d,0.00022240983
+Australia,rsi,obv_trend,0.00021506818
+Australia,return_3d,bb_low_dist,0.00021387571
+Australia,volatility_7d,moy_sin,0.00021385521
+Australia,rel_strength_spy,is_month_end,0.00020731422
+Australia,return_14d,dow_sin,0.00020325868
+Australia,macd_diff,obv_trend,0.00019867647
+Australia,corr_30d,dow_sin,0.00019732382
+Australia,return_1d,obv_trend,0.00019671362
+Australia,return_3d,return_7d,0.0001943906
+Australia,return_3d,momentum_divergence_20d,0.00019384807
+Australia,return_3d,macd_diff,0.00019219506
+Australia,bb_low_dist,dow_cos,0.0001915462
+Australia,return_3d,moy_sin,0.00019064714
+Australia,return_1d,bb_high_dist,0.0001893319
+Australia,return_14d,is_month_end,0.00018229728
+Australia,return_30d,vol_roc_10,0.0001813234
+Australia,return_3d,vix_rank,0.00017302374
+Australia,credit_spread_5d,dow_sin,0.00017242158
+Australia,rel_strength_spy,dow_cos,0.00017158361
+Australia,return_1d,macd_diff,0.00017126615
+Australia,yield_curve_slope,dow_cos,0.00016780088
+Australia,atr_14,dow_cos,0.00016180078
+Australia,vol_roc_10,is_month_end,0.0001611144
+Australia,return_1d,return_3d,0.00015609646
+Australia,dow_cos,moy_cos,0.00015003677
+Australia,rsi,dow_sin,0.00014457123
+Australia,momentum_divergence_20d,dow_cos,0.00014347579
+Australia,return_1d,moy_sin,0.00014330287
+Australia,bb_high_dist,dow_cos,0.00013879688
+Australia,atr_14,is_month_end,0.00013781223
+Australia,bb_high_dist,obv_trend,0.00011982189
+Australia,yield_curve_slope,dow_sin,0.00011688368
+Australia,vix_term_structure,is_month_end,0.0001161496
+Australia,return_30d,dow_cos,0.00011018488
+Australia,return_1d,moy_cos,0.00010654378
+Australia,corr_30d,is_month_end,0.00010161315
+Australia,corr_30d,dow_cos,9.762145e-05
+Australia,vix_rank,dow_cos,9.109225e-05
+Australia,dow_cos,moy_sin,9.0685244e-05
+Australia,obv_trend,is_month_end,7.995557e-05
+Australia,bb_high_dist,is_month_end,7.8105426e-05
+Australia,yield_curve_slope,is_month_end,7.356866e-05
+Australia,dow_sin,moy_sin,7.2577124e-05
+Australia,return_3d,is_month_end,6.6977525e-05
+Australia,volatility_7d,dow_cos,6.649482e-05
+Australia,atr_14,dow_sin,6.5776345e-05
+Australia,return_30d,is_month_end,6.3506086e-05
+Australia,vix_rank,is_month_end,6.2302635e-05
+Australia,volatility_7d,is_month_end,6.174808e-05
+Australia,vol_roc_10,dow_sin,5.99881e-05
+Australia,bb_low_dist,is_month_end,5.4628985e-05
+Australia,return_3d,dow_sin,5.169784e-05
+Australia,return_7d,is_month_end,4.532112e-05
+Australia,return_7d,dow_cos,4.3808173e-05
+Australia,obv_trend,dow_sin,4.066344e-05
+Australia,macd_diff,dow_sin,3.902538e-05
+Australia,moy_cos,is_month_end,3.6277073e-05
+Australia,macd_diff,is_month_end,3.511605e-05
+Australia,momentum_divergence_20d,is_month_end,3.289166e-05
+Australia,return_14d,dow_cos,3.2341533e-05
+Australia,return_1d,is_month_end,3.0467592e-05
+Australia,credit_spread_5d,is_month_end,2.584907e-05
+Australia,return_1d,dow_sin,2.5036257e-05
+Australia,moy_sin,is_month_end,2.4359102e-05
+Australia,sector_divergence,is_month_end,2.2734637e-05
+Australia,return_1d,dow_cos,2.1583564e-05
+Australia,dow_sin,moy_cos,1.9252986e-05
+Australia,obv_trend,dow_cos,1.6994116e-05
+Australia,rsi,dow_cos,1.238687e-05
+Australia,rel_strength_spy,sentiment_score,1.1886832e-05
+Australia,rsi,is_month_end,1.1188405e-05
+Australia,return_3d,dow_cos,1.1047126e-05
+Australia,return_7d,sentiment_score,1.0143339e-05
+Australia,atr_14,sector_avg_sentiment,7.835226e-06
+Australia,corr_30d,sentiment_score,1.1248438e-06
+Australia,vol_roc_10,sentiment_score,1.0988193e-06
+Australia,sentiment_score,momentum_divergence_20d,1.0661952e-06
+Australia,sentiment_score,credit_spread_5d,8.75759e-07
+Australia,rel_strength_spy,sector_avg_sentiment,8.4806857e-07
+Australia,sentiment_score,moy_cos,6.681747e-07
+Australia,sentiment_score,yield_curve_slope,5.336869e-07
+Australia,sentiment_score,sector_divergence,5.1019583e-07
+Australia,rsi,sentiment_score,4.9407566e-07
+Australia,sentiment_score,vix_term_structure,4.170879e-07
+Australia,sentiment_score,moy_sin,3.4612583e-07
+Australia,bb_low_dist,sentiment_score,3.3925903e-07
+Australia,obv_trend,sentiment_score,2.6697205e-07
+Australia,vol_roc_10,sector_avg_sentiment,2.1157119e-07
+Australia,vix_rank,sentiment_score,1.6358089e-07
+Australia,volatility_7d,sentiment_score,1.4824268e-07
+Australia,macd_diff,sentiment_score,1.02175626e-07
+Australia,bb_high_dist,sentiment_score,8.593544e-08
+Australia,return_3d,sentiment_score,1.6421481e-08
+Australia,sentiment_score,dow_sin,8.940129e-09
+Australia,macd_diff,sector_avg_sentiment,0.0
+Australia,volatility_7d,sector_sentiment_momentum,0.0
+Australia,volatility_7d,sector_avg_sentiment,0.0
+Australia,volatility_7d,sentiment_divergence,0.0
+Australia,rsi,sector_avg_sentiment,0.0
+Australia,atr_14,sector_sentiment_momentum,0.0
+Australia,atr_14,sentiment_divergence,0.0
+Australia,bb_high_dist,sector_avg_sentiment,0.0
+Australia,bb_high_dist,sector_sentiment_momentum,0.0
+Australia,bb_high_dist,sentiment_divergence,0.0
+Australia,bb_low_dist,sector_avg_sentiment,0.0
+Australia,bb_low_dist,sentiment_divergence,0.0
+Australia,return_1d,sentiment_score,0.0
+Australia,return_1d,sector_avg_sentiment,0.0
+Australia,return_1d,sentiment_divergence,0.0
+Australia,return_1d,sector_sentiment_momentum,0.0
+Australia,atr_14,sentiment_score,0.0
+Australia,macd_diff,sentiment_divergence,0.0
+Australia,macd_diff,sector_sentiment_momentum,0.0
+Australia,macd_diff,dow_cos,0.0
+Australia,bb_low_dist,sector_sentiment_momentum,0.0
+Australia,obv_trend,sector_sentiment_momentum,0.0
+Australia,return_7d,sector_avg_sentiment,0.0
+Australia,return_7d,sentiment_divergence,0.0
+Australia,return_30d,sector_avg_sentiment,0.0
+Australia,return_30d,sentiment_divergence,0.0
+Australia,obv_trend,sentiment_divergence,0.0
+Australia,return_30d,sector_sentiment_momentum,0.0
+Australia,sentiment_score,sentiment_divergence,0.0
+Australia,sentiment_score,sector_sentiment_momentum,0.0
+Australia,rel_strength_spy,sector_sentiment_momentum,0.0
+Australia,sentiment_score,sector_avg_sentiment,0.0
+Australia,vix_rank,sector_sentiment_momentum,0.0
+Australia,vix_rank,sentiment_divergence,0.0
+Australia,vix_rank,sector_avg_sentiment,0.0
+Australia,rel_strength_spy,sentiment_divergence,0.0
+Australia,return_14d,sentiment_divergence,0.0
+Australia,return_14d,sector_sentiment_momentum,0.0
+Australia,return_14d,sentiment_score,0.0
+Australia,return_14d,sector_avg_sentiment,0.0
+Australia,corr_30d,sector_avg_sentiment,0.0
+Australia,corr_30d,sector_sentiment_momentum,0.0
+Australia,corr_30d,sentiment_divergence,0.0
+Australia,return_7d,sector_sentiment_momentum,0.0
+Australia,return_30d,sentiment_score,0.0
+Australia,vol_roc_10,dow_cos,0.0
+Australia,obv_trend,sector_avg_sentiment,0.0
+Australia,vol_roc_10,sector_sentiment_momentum,0.0
+Australia,rsi,sentiment_divergence,0.0
+Australia,rsi,sector_sentiment_momentum,0.0
+Australia,vol_roc_10,sentiment_divergence,0.0
+Australia,sector_avg_sentiment,vix_term_structure,0.0
+Australia,return_3d,sector_sentiment_momentum,0.0
+Australia,return_3d,sentiment_divergence,0.0
+Australia,return_3d,sector_avg_sentiment,0.0
+Australia,sector_avg_sentiment,sentiment_divergence,0.0
+Australia,sector_avg_sentiment,sector_sentiment_momentum,0.0
+Australia,sector_avg_sentiment,sector_divergence,0.0
+Australia,sentiment_score,is_month_end,0.0
+Australia,sentiment_score,dow_cos,0.0
+Australia,sentiment_divergence,sector_sentiment_momentum,0.0
+Australia,sector_avg_sentiment,is_month_end,0.0
+Australia,sector_avg_sentiment,moy_cos,0.0
+Australia,sector_avg_sentiment,moy_sin,0.0
+Australia,sector_avg_sentiment,dow_cos,0.0
+Australia,sector_avg_sentiment,dow_sin,0.0
+Australia,sector_avg_sentiment,momentum_divergence_20d,0.0
+Australia,sector_avg_sentiment,yield_curve_slope,0.0
+Australia,sector_avg_sentiment,credit_spread_5d,0.0
+Australia,sentiment_divergence,sector_divergence,0.0
+Australia,sentiment_divergence,credit_spread_5d,0.0
+Australia,sentiment_divergence,vix_term_structure,0.0
+Australia,sentiment_divergence,momentum_divergence_20d,0.0
+Australia,sentiment_divergence,dow_sin,0.0
+Australia,sentiment_divergence,dow_cos,0.0
+Australia,sentiment_divergence,yield_curve_slope,0.0
+Australia,sector_sentiment_momentum,dow_sin,0.0
+Australia,sector_sentiment_momentum,momentum_divergence_20d,0.0
+Australia,sector_sentiment_momentum,yield_curve_slope,0.0
+Australia,sector_sentiment_momentum,credit_spread_5d,0.0
+Australia,sector_sentiment_momentum,vix_term_structure,0.0
+Australia,sector_sentiment_momentum,sector_divergence,0.0
+Australia,sentiment_divergence,is_month_end,0.0
+Australia,sentiment_divergence,moy_cos,0.0
+Australia,sentiment_divergence,moy_sin,0.0
+Australia,dow_sin,dow_cos,0.0
+Australia,sector_sentiment_momentum,moy_cos,0.0
+Australia,sector_sentiment_momentum,is_month_end,0.0
+Australia,sector_sentiment_momentum,dow_cos,0.0
+Australia,sector_sentiment_momentum,moy_sin,0.0
+Australia,dow_sin,is_month_end,0.0
+Australia,dow_cos,is_month_end,0.0
+Asia,corr_30d,moy_cos,0.007396634
+Asia,corr_30d,momentum_divergence_20d,0.005939642
+Asia,credit_spread_5d,momentum_divergence_20d,0.00511152
+Asia,corr_30d,yield_curve_slope,0.005108223
+Asia,vix_rank,vix_term_structure,0.0047196574
+Asia,corr_30d,vix_rank,0.0045864936
+Asia,yield_curve_slope,moy_cos,0.004308037
+Asia,macd_diff,bb_high_dist,0.003997697
+Asia,momentum_divergence_20d,moy_cos,0.003899691
+Asia,vix_rank,yield_curve_slope,0.0037025413
+Asia,yield_curve_slope,momentum_divergence_20d,0.0034276077
+Asia,bb_high_dist,vix_rank,0.002587455
+Asia,vix_rank,momentum_divergence_20d,0.0025083604
+Asia,vix_term_structure,yield_curve_slope,0.0023782752
+Asia,macd_diff,vix_term_structure,0.00232695
+Asia,corr_30d,vix_term_structure,0.0021603336
+Asia,corr_30d,is_month_end,0.0020043529
+Asia,credit_spread_5d,yield_curve_slope,0.0019639495
+Asia,atr_14,corr_30d,0.0017690588
+Asia,corr_30d,credit_spread_5d,0.0017603479
+Asia,vix_rank,moy_sin,0.0017568162
+Asia,vix_rank,credit_spread_5d,0.0017384624
+Asia,bb_high_dist,corr_30d,0.0016938515
+Asia,return_3d,corr_30d,0.0015948901
+Asia,macd_diff,momentum_divergence_20d,0.00158658
+Asia,atr_14,vix_rank,0.0015779397
+Asia,vix_rank,moy_cos,0.0015750463
+Asia,macd_diff,moy_cos,0.0014812546
+Asia,return_7d,vix_rank,0.001459917
+Asia,credit_spread_5d,moy_cos,0.0014536617
+Asia,vix_term_structure,moy_cos,0.001376843
+Asia,vix_term_structure,momentum_divergence_20d,0.0013576854
+Asia,vix_term_structure,credit_spread_5d,0.0013194252
+Asia,bb_low_dist,vix_rank,0.0012765396
+Asia,yield_curve_slope,dow_sin,0.0012233126
+Asia,atr_14,yield_curve_slope,0.001104394
+Asia,macd_diff,dow_sin,0.0010881716
+Asia,atr_14,momentum_divergence_20d,0.0010684602
+Asia,return_30d,vix_rank,0.0010640636
+Asia,return_7d,corr_30d,0.0010460236
+Asia,volatility_7d,moy_cos,0.0010329987
+Asia,return_7d,momentum_divergence_20d,0.001014988
+Asia,macd_diff,vix_rank,0.0009896618
+Asia,vix_rank,dow_sin,0.00097471365
+Asia,atr_14,bb_high_dist,0.00095783244
+Asia,rsi,momentum_divergence_20d,0.00094896246
+Asia,macd_diff,corr_30d,0.0009248131
+Asia,corr_30d,moy_sin,0.0009200649
+Asia,return_30d,credit_spread_5d,0.000883603
+Asia,return_3d,vix_rank,0.0008745774
+Asia,bb_low_dist,vix_term_structure,0.0008429176
+Asia,atr_14,moy_cos,0.00082329917
+Asia,moy_cos,is_month_end,0.00080879417
+Asia,bb_high_dist,vix_term_structure,0.000802978
+Asia,atr_14,vix_term_structure,0.0007990001
+Asia,rsi,corr_30d,0.0007914986
+Asia,corr_30d,dow_sin,0.00078683026
+Asia,rsi,vix_term_structure,0.0007796329
+Asia,rsi,vix_rank,0.00076892663
+Asia,volatility_7d,vix_rank,0.0007619807
+Asia,return_14d,vix_term_structure,0.00075422495
+Asia,return_30d,yield_curve_slope,0.00074782985
+Asia,return_14d,yield_curve_slope,0.00074527354
+Asia,volatility_7d,yield_curve_slope,0.00074320467
+Asia,atr_14,obv_trend,0.0007389605
+Asia,return_7d,yield_curve_slope,0.00072312355
+Asia,return_30d,is_month_end,0.0007092826
+Asia,bb_high_dist,yield_curve_slope,0.0006994249
+Asia,volatility_7d,atr_14,0.0006882678
+Asia,yield_curve_slope,moy_sin,0.00064882665
+Asia,atr_14,rel_strength_spy,0.000644728
+Asia,return_30d,vix_term_structure,0.0006291502
+Asia,macd_diff,credit_spread_5d,0.00062247406
+Asia,momentum_divergence_20d,moy_sin,0.00062189135
+Asia,return_30d,corr_30d,0.00062056497
+Asia,bb_low_dist,yield_curve_slope,0.0006128203
+Asia,macd_diff,rel_strength_spy,0.00060610095
+Asia,return_14d,corr_30d,0.000602399
+Asia,return_3d,vix_term_structure,0.00059482484
+Asia,macd_diff,yield_curve_slope,0.00059444265
+Asia,return_3d,dow_sin,0.0005922549
+Asia,return_1d,credit_spread_5d,0.0005757618
+Asia,vix_term_structure,moy_sin,0.0005722531
+Asia,credit_spread_5d,dow_sin,0.0005684282
+Asia,return_14d,credit_spread_5d,0.00055789016
+Asia,return_14d,momentum_divergence_20d,0.00055279967
+Asia,vol_roc_10,momentum_divergence_20d,0.0005509814
+Asia,rsi,credit_spread_5d,0.00055079
+Asia,bb_low_dist,corr_30d,0.0005504783
+Asia,return_7d,vix_term_structure,0.00055021985
+Asia,volatility_7d,corr_30d,0.0005498618
+Asia,bb_high_dist,moy_sin,0.00054699584
+Asia,return_30d,moy_sin,0.000540256
+Asia,return_3d,momentum_divergence_20d,0.00053944497
+Asia,macd_diff,atr_14,0.0005384351
+Asia,return_1d,vix_rank,0.00053709396
+Asia,bb_high_dist,market_encoded,0.0005341523
+Asia,macd_diff,vol_roc_10,0.00052796234
+Asia,bb_low_dist,momentum_divergence_20d,0.00052243227
+Asia,volatility_7d,vix_term_structure,0.00051071955
+Asia,return_14d,moy_cos,0.00051044417
+Asia,macd_diff,volatility_7d,0.00049902865
+Asia,macd_diff,sector_divergence,0.0004963427
+Asia,corr_30d,dow_cos,0.0004921572
+Asia,return_1d,vix_term_structure,0.0004806095
+Asia,bb_high_dist,vol_roc_10,0.00046071238
+Asia,rel_strength_spy,vix_term_structure,0.00045911098
+Asia,momentum_divergence_20d,is_month_end,0.00044859902
+Asia,return_7d,atr_14,0.00044371997
+Asia,vix_term_structure,dow_sin,0.00043715752
+Asia,bb_high_dist,momentum_divergence_20d,0.00043313307
+Asia,return_30d,momentum_divergence_20d,0.00042172908
+Asia,momentum_divergence_20d,dow_sin,0.00041756502
+Asia,obv_trend,sector_divergence,0.00040877375
+Asia,return_30d,atr_14,0.00040657184
+Asia,dow_sin,moy_cos,0.00040399848
+Asia,return_30d,macd_diff,0.00040116435
+Asia,return_14d,atr_14,0.00039889474
+Asia,return_1d,dow_sin,0.00039722037
+Asia,return_30d,volatility_7d,0.00039606384
+Asia,sector_divergence,yield_curve_slope,0.0003939136
+Asia,volatility_7d,bb_high_dist,0.00038498576
+Asia,return_3d,bb_high_dist,0.0003834061
+Asia,bb_high_dist,credit_spread_5d,0.00037733236
+Asia,return_3d,atr_14,0.00036968812
+Asia,return_7d,dow_sin,0.0003644162
+Asia,bb_high_dist,rel_strength_spy,0.00036416415
+Asia,vix_rank,dow_cos,0.00036063575
+Asia,return_1d,yield_curve_slope,0.00035044499
+Asia,return_14d,vix_rank,0.00034275535
+Asia,credit_spread_5d,moy_sin,0.0003423102
+Asia,return_3d,bb_low_dist,0.00033880436
+Asia,moy_sin,is_month_end,0.00033832944
+Asia,return_1d,corr_30d,0.000338096
+Asia,obv_trend,vix_rank,0.00033639956
+Asia,rsi,moy_cos,0.00033079513
+Asia,vol_roc_10,vix_rank,0.00032890844
+Asia,rsi,bb_high_dist,0.0003137024
+Asia,volatility_7d,sector_divergence,0.00031243553
+Asia,vix_rank,sector_divergence,0.00030681063
+Asia,return_30d,moy_cos,0.00029414357
+Asia,return_30d,bb_high_dist,0.00029366213
+Asia,return_3d,moy_cos,0.0002892796
+Asia,return_3d,return_7d,0.00028757518
+Asia,bb_high_dist,bb_low_dist,0.000283504
+Asia,atr_14,bb_low_dist,0.00028117842
+Asia,return_1d,bb_high_dist,0.00028078622
+Asia,obv_trend,rel_strength_spy,0.00027993048
+Asia,return_3d,yield_curve_slope,0.00027667652
+Asia,return_1d,atr_14,0.00027664594
+Asia,bb_high_dist,obv_trend,0.00027589453
+Asia,rsi,is_month_end,0.00027443352
+Asia,return_3d,credit_spread_5d,0.00027359097
+Asia,rsi,bb_low_dist,0.0002700711
+Asia,return_7d,moy_cos,0.00026868476
+Asia,rsi,yield_curve_slope,0.0002675046
+Asia,volatility_7d,moy_sin,0.00026342346
+Asia,return_3d,moy_sin,0.0002617769
+Asia,macd_diff,market_encoded,0.000260246
+Asia,atr_14,credit_spread_5d,0.00026009997
+Asia,rel_strength_spy,yield_curve_slope,0.00026003816
+Asia,rsi,obv_trend,0.00025875474
+Asia,return_7d,credit_spread_5d,0.0002571406
+Asia,atr_14,moy_sin,0.0002562991
+Asia,macd_diff,is_month_end,0.00025461163
+Asia,bb_high_dist,moy_cos,0.00025460962
+Asia,return_14d,bb_high_dist,0.00024972062
+Asia,sector_sentiment_momentum,momentum_divergence_20d,0.00024602897
+Asia,return_1d,bb_low_dist,0.00024460387
+Asia,return_1d,macd_diff,0.00024430614
+Asia,momentum_divergence_20d,dow_cos,0.00024151179
+Asia,rel_strength_spy,sector_divergence,0.00024000871
+Asia,volatility_7d,obv_trend,0.00023973265
+Asia,return_14d,rsi,0.00023919616
+Asia,vix_rank,rel_strength_spy,0.00023878101
+Asia,return_1d,return_14d,0.00023221358
+Asia,atr_14,sector_divergence,0.00023070788
+Asia,rsi,atr_14,0.00022730068
+Asia,obv_trend,moy_cos,0.00022626
+Asia,volatility_7d,credit_spread_5d,0.00022564435
+Asia,rel_strength_spy,momentum_divergence_20d,0.00022539283
+Asia,return_1d,moy_cos,0.00022358313
+Asia,vix_term_structure,dow_cos,0.00022347526
+Asia,return_1d,return_3d,0.00022340861
+Asia,volatility_7d,dow_sin,0.00022304614
+Asia,corr_30d,sector_divergence,0.00022245424
+Asia,return_30d,rsi,0.0002223789
+Asia,return_30d,bb_low_dist,0.00022179294
+Asia,return_1d,momentum_divergence_20d,0.00022171636
+Asia,return_7d,macd_diff,0.0002217055
+Asia,sector_sentiment_momentum,is_month_end,0.0002205614
+Asia,vix_rank,is_month_end,0.00022002334
+Asia,bb_low_dist,credit_spread_5d,0.00021521689
+Asia,rsi,macd_diff,0.00021492326
+Asia,macd_diff,bb_low_dist,0.0002091362
+Asia,return_3d,volatility_7d,0.00020549455
+Asia,return_3d,rsi,0.0002045895
+Asia,bb_low_dist,moy_cos,0.0002036109
+Asia,obv_trend,yield_curve_slope,0.00020079245
+Asia,yield_curve_slope,is_month_end,0.00019975309
+Asia,atr_14,vol_roc_10,0.00019933707
+Asia,obv_trend,corr_30d,0.00019774097
+Asia,return_3d,sector_divergence,0.00019747081
+Asia,bb_high_dist,dow_sin,0.0001971264
+Asia,yield_curve_slope,dow_cos,0.00019243533
+Asia,volatility_7d,momentum_divergence_20d,0.00019151939
+Asia,return_14d,volatility_7d,0.00019054262
+Asia,return_3d,obv_trend,0.00018783087
+Asia,return_3d,macd_diff,0.0001851931
+Asia,volatility_7d,bb_low_dist,0.00018463696
+Asia,sector_divergence,momentum_divergence_20d,0.00018398337
+Asia,return_30d,obv_trend,0.0001827912
+Asia,return_14d,return_30d,0.00018059663
+Asia,macd_diff,moy_sin,0.00018009602
+Asia,return_7d,bb_low_dist,0.0001797516
+Asia,return_1d,rel_strength_spy,0.00017802298
+Asia,bb_high_dist,sector_divergence,0.00017689112
+Asia,corr_30d,rel_strength_spy,0.00017685257
+Asia,return_1d,return_7d,0.00017638253
+Asia,return_7d,volatility_7d,0.00017529461
+Asia,obv_trend,vix_term_structure,0.00017302425
+Asia,obv_trend,momentum_divergence_20d,0.00017262944
+Asia,return_7d,vol_roc_10,0.00017245267
+Asia,vol_roc_10,yield_curve_slope,0.00017225118
+Asia,bb_low_dist,sector_sentiment_momentum,0.00016883694
+Asia,return_14d,macd_diff,0.00016789311
+Asia,vix_term_structure,is_month_end,0.00016567262
+Asia,return_3d,return_30d,0.00016334905
+Asia,return_1d,volatility_7d,0.0001633394
+Asia,bb_low_dist,moy_sin,0.00016080914
+Asia,bb_low_dist,rel_strength_spy,0.00015931019
+Asia,bb_low_dist,is_month_end,0.00015770872
+Asia,return_3d,rel_strength_spy,0.00015678373
+Asia,rsi,moy_sin,0.00015518069
+Asia,rel_strength_spy,moy_cos,0.0001538575
+Asia,dow_sin,moy_sin,0.00015362675
+Asia,return_1d,rsi,0.00014844327
+Asia,return_7d,is_month_end,0.0001473915
+Asia,obv_trend,is_month_end,0.0001442432
+Asia,obv_trend,moy_sin,0.00014386626
+Asia,return_7d,return_14d,0.00014289026
+Asia,return_30d,rel_strength_spy,0.00014263086
+Asia,return_7d,return_30d,0.00014112292
+Asia,return_30d,dow_sin,0.00013929256
+Asia,atr_14,dow_sin,0.00013675565
+Asia,macd_diff,sentiment_score,0.00013634587
+Asia,return_30d,sector_divergence,0.00013234973
+Asia,credit_spread_5d,is_month_end,0.00013220933
+Asia,return_14d,is_month_end,0.0001319353
+Asia,atr_14,market_encoded,0.00013175145
+Asia,vol_roc_10,credit_spread_5d,0.00013143338
+Asia,return_7d,moy_sin,0.00013087913
+Asia,vol_roc_10,vix_term_structure,0.00012964549
+Asia,sector_divergence,vix_term_structure,0.00012867473
+Asia,return_7d,bb_high_dist,0.0001253832
+Asia,volatility_7d,vol_roc_10,0.00012520437
+Asia,return_1d,sector_divergence,0.00012466796
+Asia,momentum_divergence_20d,market_encoded,0.00012404697
+Asia,return_14d,rel_strength_spy,0.00012114399
+Asia,bb_low_dist,vol_roc_10,0.000120692224
+Asia,bb_high_dist,is_month_end,0.00012006217
+Asia,bb_low_dist,obv_trend,0.00011900328
+Asia,rsi,volatility_7d,0.00011884307
+Asia,return_7d,rsi,0.00011716857
+Asia,vol_roc_10,moy_cos,0.00011485433
+Asia,volatility_7d,market_encoded,0.00011481997
+Asia,corr_30d,market_encoded,0.00011355424
+Asia,atr_14,is_month_end,0.00011315424
+Asia,return_3d,return_14d,0.00011257221
+Asia,return_1d,obv_trend,0.000110717556
+Asia,rel_strength_spy,credit_spread_5d,0.000110474924
+Asia,volatility_7d,is_month_end,0.000110439316
+Asia,return_1d,vol_roc_10,0.00010735047
+Asia,macd_diff,sector_avg_sentiment,0.00010602931
+Asia,return_7d,sector_divergence,0.00010387503
+Asia,dow_cos,moy_sin,0.00010328605
+Asia,dow_cos,is_month_end,0.000101704856
+Asia,obv_trend,market_encoded,0.00010169812
+Asia,return_14d,bb_low_dist,9.841126e-05
+Asia,rsi,dow_sin,9.80284e-05
+Asia,return_3d,is_month_end,9.7912096e-05
+Asia,rsi,rel_strength_spy,9.707443e-05
+Asia,bb_low_dist,dow_sin,9.598954e-05
+Asia,sector_divergence,credit_spread_5d,9.501704e-05
+Asia,vix_term_structure,market_encoded,9.408205e-05
+Asia,sector_divergence,moy_cos,9.380782e-05
+Asia,vol_roc_10,corr_30d,9.32986e-05
+Asia,return_7d,rel_strength_spy,9.299721e-05
+Asia,vix_rank,market_encoded,9.119876e-05
+Asia,return_1d,is_month_end,8.935295e-05
+Asia,volatility_7d,rel_strength_spy,8.83705e-05
+Asia,rel_strength_spy,dow_sin,8.834104e-05
+Asia,rsi,sector_divergence,8.8231296e-05
+Asia,credit_spread_5d,dow_cos,8.7834596e-05
+Asia,vol_roc_10,obv_trend,8.725536e-05
+Asia,return_14d,sector_divergence,8.654644e-05
+Asia,return_14d,obv_trend,8.501745e-05
+Asia,return_3d,sector_sentiment_momentum,8.28308e-05
+Asia,moy_sin,moy_cos,8.109369e-05
+Asia,bb_low_dist,sector_divergence,7.6221884e-05
+Asia,return_3d,vol_roc_10,7.2751136e-05
+Asia,return_7d,obv_trend,7.2604955e-05
+Asia,vol_roc_10,market_encoded,6.861557e-05
+Asia,vol_roc_10,dow_sin,6.770768e-05
+Asia,yield_curve_slope,market_encoded,6.614831e-05
+Asia,macd_diff,obv_trend,6.6140936e-05
+Asia,rsi,vol_roc_10,6.2307336e-05
+Asia,return_14d,dow_cos,6.1258426e-05
+Asia,return_14d,dow_sin,6.125601e-05
+Asia,return_14d,vol_roc_10,6.0302227e-05
+Asia,return_1d,return_30d,5.8972222e-05
+Asia,sector_sentiment_momentum,yield_curve_slope,5.84301e-05
+Asia,bb_high_dist,dow_cos,5.445442e-05
+Asia,return_14d,moy_sin,5.3881635e-05
+Asia,rel_strength_spy,dow_cos,5.3166044e-05
+Asia,obv_trend,dow_cos,5.2554533e-05
+Asia,sector_divergence,dow_sin,5.2217623e-05
+Asia,sector_divergence,moy_sin,5.171131e-05
+Asia,return_1d,moy_sin,5.167234e-05
+Asia,sector_sentiment_momentum,sector_divergence,5.0355873e-05
+Asia,rel_strength_spy,is_month_end,5.013962e-05
+Asia,dow_sin,market_encoded,4.9300357e-05
+Asia,sector_divergence,is_month_end,4.8223457e-05
+Asia,bb_high_dist,sentiment_score,4.7353584e-05
+Asia,moy_cos,market_encoded,4.7297326e-05
+Asia,return_1d,dow_cos,4.697553e-05
+Asia,return_30d,vol_roc_10,4.6947946e-05
+Asia,obv_trend,credit_spread_5d,4.5092256e-05
+Asia,return_30d,sentiment_score,4.4397635e-05
+Asia,return_1d,market_encoded,4.4179887e-05
+Asia,return_7d,market_encoded,4.316665e-05
+Asia,bb_low_dist,dow_cos,4.2727574e-05
+Asia,rel_strength_spy,moy_sin,3.9604318e-05
+Asia,return_7d,dow_cos,3.8783786e-05
+Asia,vol_roc_10,sector_divergence,3.8623908e-05
+Asia,macd_diff,dow_cos,3.481293e-05
+Asia,dow_cos,moy_cos,3.458176e-05
+Asia,return_14d,sector_sentiment_momentum,3.448724e-05
+Asia,return_7d,sector_avg_sentiment,3.40345e-05
+Asia,vol_roc_10,moy_sin,3.1635755e-05
+Asia,sentiment_score,sector_sentiment_momentum,3.0516318e-05
+Asia,bb_low_dist,market_encoded,3.0185785e-05
+Asia,return_1d,sector_sentiment_momentum,2.9183146e-05
+Asia,vol_roc_10,sector_sentiment_momentum,2.9001676e-05
+Asia,sector_sentiment_momentum,vix_term_structure,2.698389e-05
+Asia,return_3d,sentiment_score,2.5373636e-05
+Asia,sector_sentiment_momentum,moy_cos,2.4392712e-05
+Asia,rsi,market_encoded,2.375788e-05
+Asia,return_3d,dow_cos,2.3693456e-05
+Asia,moy_sin,market_encoded,2.2397546e-05
+Asia,dow_sin,is_month_end,2.1943863e-05
+Asia,sector_avg_sentiment,sector_sentiment_momentum,2.1411559e-05
+Asia,return_14d,sector_avg_sentiment,2.0835221e-05
+Asia,vol_roc_10,rel_strength_spy,1.9927991e-05
+Asia,credit_spread_5d,market_encoded,1.9886787e-05
+Asia,sector_divergence,dow_cos,1.9601865e-05
+Asia,vol_roc_10,is_month_end,1.9145047e-05
+Asia,rsi,dow_cos,1.8727667e-05
+Asia,vix_rank,sector_sentiment_momentum,1.8359508e-05
+Asia,return_30d,sector_avg_sentiment,1.8308961e-05
+Asia,obv_trend,dow_sin,1.761504e-05
+Asia,sentiment_score,is_month_end,1.6212418e-05
+Asia,return_30d,dow_cos,1.5185355e-05
+Asia,obv_trend,sector_avg_sentiment,1.5055447e-05
+Asia,rsi,sector_avg_sentiment,1.4842879e-05
+Asia,atr_14,sector_sentiment_momentum,1.4189174e-05
+Asia,return_14d,sentiment_score,1.389763e-05
+Asia,volatility_7d,dow_cos,1.365949e-05
+Asia,sentiment_score,momentum_divergence_20d,1.322367e-05
+Asia,sector_divergence,market_encoded,1.2856816e-05
+Asia,return_1d,sentiment_score,1.2098996e-05
+Asia,atr_14,sector_avg_sentiment,1.1801239e-05
+Asia,rel_strength_spy,sector_sentiment_momentum,1.1271641e-05
+Asia,corr_30d,sector_sentiment_momentum,1.101673e-05
+Asia,return_14d,market_encoded,1.0394262e-05
+Asia,macd_diff,sector_sentiment_momentum,1.0219757e-05
+Asia,sector_avg_sentiment,momentum_divergence_20d,1.0042923e-05
+Asia,vol_roc_10,dow_cos,9.923571e-06
+Asia,vix_rank,sentiment_score,9.850641e-06
+Asia,sentiment_score,moy_cos,8.683602e-06
+Asia,atr_14,dow_cos,8.122523e-06
+Asia,bb_high_dist,sector_sentiment_momentum,7.005038e-06
+Asia,sector_avg_sentiment,sector_divergence,7.0027895e-06
+Asia,rsi,sentiment_score,6.7177507e-06
+Asia,sector_avg_sentiment,credit_spread_5d,6.5410054e-06
+Asia,return_7d,sector_sentiment_momentum,6.179284e-06
+Asia,corr_30d,sentiment_score,5.63599e-06
+Asia,return_30d,market_encoded,5.5074665e-06
+Asia,return_1d,sector_avg_sentiment,5.3232966e-06
+Asia,sector_sentiment_momentum,credit_spread_5d,4.9753553e-06
+Asia,volatility_7d,sentiment_score,4.8462653e-06
+Asia,return_30d,sector_sentiment_momentum,4.570937e-06
+Asia,corr_30d,sector_avg_sentiment,4.390775e-06
+Asia,sector_sentiment_momentum,dow_sin,3.6364363e-06
+Asia,rsi,sector_sentiment_momentum,3.5922933e-06
+Asia,volatility_7d,sector_sentiment_momentum,2.6664393e-06
+Asia,vol_roc_10,sentiment_score,2.5770757e-06
+Asia,return_3d,sector_avg_sentiment,2.3795333e-06
+Asia,sentiment_score,sector_avg_sentiment,2.3774803e-06
+Asia,sector_sentiment_momentum,dow_cos,2.3451746e-06
+Asia,sentiment_divergence,sector_sentiment_momentum,2.2364347e-06
+Asia,obv_trend,sector_sentiment_momentum,2.0648674e-06
+Asia,sector_avg_sentiment,yield_curve_slope,2.0375342e-06
+Asia,bb_low_dist,sector_avg_sentiment,1.8368357e-06
+Asia,sector_avg_sentiment,moy_cos,1.5401938e-06
+Asia,volatility_7d,sector_avg_sentiment,1.2798465e-06
+Asia,vix_rank,sector_avg_sentiment,1.1868306e-06
+Asia,sentiment_score,vix_term_structure,1.150618e-06
+Asia,sector_avg_sentiment,vix_term_structure,9.961179e-07
+Asia,vol_roc_10,sentiment_divergence,9.751271e-07
+Asia,rel_strength_spy,sector_avg_sentiment,9.230867e-07
+Asia,sentiment_score,yield_curve_slope,9.037108e-07
+Asia,sentiment_score,credit_spread_5d,7.527903e-07
+Asia,return_7d,sentiment_score,4.5425605e-07
+Asia,sector_avg_sentiment,sentiment_divergence,3.6912814e-07
+Asia,sector_avg_sentiment,is_month_end,3.2101522e-07
+Asia,bb_high_dist,sector_avg_sentiment,3.179619e-07
+Asia,sector_sentiment_momentum,moy_sin,2.3494515e-07
+Asia,sentiment_score,dow_sin,2.3142502e-07
+Asia,vol_roc_10,sector_avg_sentiment,1.4425056e-07
+Asia,sector_avg_sentiment,dow_sin,1.316715e-07
+Asia,sector_avg_sentiment,moy_sin,1.04058074e-07
+Asia,sector_sentiment_momentum,market_encoded,8.4107214e-08
+Asia,sector_avg_sentiment,market_encoded,7.3029774e-08
+Asia,atr_14,sentiment_score,5.382101e-08
+Asia,bb_high_dist,sentiment_divergence,1.4878316e-08
+Asia,sentiment_score,moy_sin,1.1305899e-08
+Asia,return_1d,sentiment_divergence,0.0
+Asia,dow_sin,dow_cos,0.0
+Asia,bb_low_dist,sentiment_score,0.0
+Asia,dow_cos,market_encoded,0.0
+Asia,bb_low_dist,sentiment_divergence,0.0
+Asia,atr_14,sentiment_divergence,0.0
+Asia,volatility_7d,sentiment_divergence,0.0
+Asia,macd_diff,sentiment_divergence,0.0
+Asia,obv_trend,sentiment_score,0.0
+Asia,rel_strength_spy,market_encoded,0.0
+Asia,sentiment_score,sentiment_divergence,0.0
+Asia,sentiment_score,sector_divergence,0.0
+Asia,rel_strength_spy,sentiment_score,0.0
+Asia,return_30d,sentiment_divergence,0.0
+Asia,obv_trend,sentiment_divergence,0.0
+Asia,rsi,sentiment_divergence,0.0
+Asia,corr_30d,sentiment_divergence,0.0
+Asia,rel_strength_spy,sentiment_divergence,0.0
+Asia,return_14d,sentiment_divergence,0.0
+Asia,vix_rank,sentiment_divergence,0.0
+Asia,sector_avg_sentiment,dow_cos,0.0
+Asia,sentiment_score,dow_cos,0.0
+Asia,return_3d,sentiment_divergence,0.0
+Asia,sentiment_divergence,dow_sin,0.0
+Asia,sentiment_divergence,dow_cos,0.0
+Asia,sentiment_divergence,sector_divergence,0.0
+Asia,sentiment_divergence,vix_term_structure,0.0
+Asia,sentiment_divergence,credit_spread_5d,0.0
+Asia,sentiment_divergence,yield_curve_slope,0.0
+Asia,sentiment_divergence,momentum_divergence_20d,0.0
+Asia,sentiment_score,market_encoded,0.0
+Asia,sentiment_divergence,is_month_end,0.0
+Asia,sentiment_divergence,market_encoded,0.0
+Asia,sentiment_divergence,moy_cos,0.0
+Asia,return_3d,market_encoded,0.0
+Asia,return_7d,sentiment_divergence,0.0
+Asia,sentiment_divergence,moy_sin,0.0
+Asia,is_month_end,market_encoded,0.0
+Commodities,vix_term_structure,momentum_divergence_20d,0.004127962
+Commodities,corr_30d,moy_cos,0.0040127775
+Commodities,bb_low_dist,yield_curve_slope,0.0035895398
+Commodities,yield_curve_slope,moy_cos,0.003107481
+Commodities,corr_30d,momentum_divergence_20d,0.00247254
+Commodities,corr_30d,yield_curve_slope,0.0020884222
+Commodities,vix_rank,momentum_divergence_20d,0.0020301759
+Commodities,vix_rank,vix_term_structure,0.0018408498
+Commodities,rsi,corr_30d,0.0017198395
+Commodities,bb_high_dist,momentum_divergence_20d,0.0014517249
+Commodities,yield_curve_slope,momentum_divergence_20d,0.0013532335
+Commodities,bb_low_dist,vix_rank,0.0013486882
+Commodities,bb_low_dist,corr_30d,0.00131889
+Commodities,bb_low_dist,vix_term_structure,0.0013059638
+Commodities,atr_14,momentum_divergence_20d,0.0010292191
+Commodities,vix_rank,yield_curve_slope,0.000987024
+Commodities,volatility_7d,moy_cos,0.0009085479
+Commodities,vix_rank,moy_cos,0.00089545955
+Commodities,corr_30d,vix_term_structure,0.0008006318
+Commodities,rsi,momentum_divergence_20d,0.00077004667
+Commodities,volatility_7d,vix_rank,0.000767382
+Commodities,corr_30d,moy_sin,0.00075855094
+Commodities,macd_diff,bb_low_dist,0.0007577518
+Commodities,corr_30d,vix_rank,0.00071193354
+Commodities,obv_trend,momentum_divergence_20d,0.0007093968
+Commodities,return_30d,corr_30d,0.00069492287
+Commodities,vix_term_structure,yield_curve_slope,0.00062637695
+Commodities,vix_term_structure,moy_cos,0.0006257567
+Commodities,volatility_7d,vix_term_structure,0.0006236625
+Commodities,rsi,bb_low_dist,0.000596698
+Commodities,bb_low_dist,momentum_divergence_20d,0.00059471163
+Commodities,obv_trend,vix_rank,0.00059441704
+Commodities,return_30d,momentum_divergence_20d,0.0005928561
+Commodities,atr_14,yield_curve_slope,0.0005837606
+Commodities,rsi,moy_cos,0.00052017113
+Commodities,return_30d,vix_term_structure,0.0005197249
+Commodities,corr_30d,credit_spread_5d,0.00050500536
+Commodities,atr_14,corr_30d,0.0005035377
+Commodities,volatility_7d,yield_curve_slope,0.0004959245
+Commodities,return_30d,moy_cos,0.00048421856
+Commodities,return_1d,vix_term_structure,0.0004790427
+Commodities,atr_14,vix_rank,0.00044795108
+Commodities,bb_high_dist,vix_term_structure,0.00044104346
+Commodities,momentum_divergence_20d,moy_cos,0.00043398314
+Commodities,return_30d,yield_curve_slope,0.0004317047
+Commodities,vix_rank,moy_sin,0.00038231237
+Commodities,volatility_7d,bb_low_dist,0.00037861808
+Commodities,rsi,obv_trend,0.00037772412
+Commodities,macd_diff,momentum_divergence_20d,0.00037633287
+Commodities,vix_term_structure,credit_spread_5d,0.0003725433
+Commodities,macd_diff,vix_rank,0.00034794136
+Commodities,macd_diff,corr_30d,0.00034526846
+Commodities,rel_strength_spy,yield_curve_slope,0.000325231
+Commodities,rsi,yield_curve_slope,0.0003247666
+Commodities,return_14d,vix_rank,0.00032153918
+Commodities,vol_roc_10,momentum_divergence_20d,0.00030683365
+Commodities,macd_diff,yield_curve_slope,0.0003058303
+Commodities,atr_14,vix_term_structure,0.00030500794
+Commodities,atr_14,moy_cos,0.00030301683
+Commodities,return_30d,macd_diff,0.00029440917
+Commodities,return_30d,bb_low_dist,0.00029301824
+Commodities,rsi,vol_roc_10,0.000288666
+Commodities,return_14d,bb_low_dist,0.00028641973
+Commodities,return_1d,bb_low_dist,0.00028396814
+Commodities,return_14d,rsi,0.00028257087
+Commodities,return_1d,vix_rank,0.00027478757
+Commodities,rsi,vix_rank,0.00027400994
+Commodities,return_3d,vix_rank,0.0002726538
+Commodities,bb_low_dist,vol_roc_10,0.00027128126
+Commodities,credit_spread_5d,yield_curve_slope,0.000268377
+Commodities,macd_diff,atr_14,0.00025950285
+Commodities,atr_14,bb_low_dist,0.00025437382
+Commodities,return_7d,vix_rank,0.00024456627
+Commodities,atr_14,credit_spread_5d,0.00023474387
+Commodities,rsi,vix_term_structure,0.0002294869
+Commodities,credit_spread_5d,momentum_divergence_20d,0.00022604033
+Commodities,bb_high_dist,bb_low_dist,0.00022585432
+Commodities,volatility_7d,atr_14,0.00022114564
+Commodities,bb_low_dist,moy_cos,0.00022052525
+Commodities,vol_roc_10,vix_rank,0.00021885496
+Commodities,return_30d,volatility_7d,0.00021643055
+Commodities,return_30d,vol_roc_10,0.00021063712
+Commodities,macd_diff,vix_term_structure,0.000208395
+Commodities,vix_rank,sector_divergence,0.0002083104
+Commodities,vix_term_structure,moy_sin,0.0002069313
+Commodities,return_7d,bb_low_dist,0.00020670146
+Commodities,return_7d,rsi,0.00020276458
+Commodities,obv_trend,yield_curve_slope,0.00020239348
+Commodities,return_30d,atr_14,0.0001982631
+Commodities,corr_30d,is_month_end,0.00019760734
+Commodities,return_3d,yield_curve_slope,0.0001952671
+Commodities,vol_roc_10,vix_term_structure,0.00018851679
+Commodities,volatility_7d,obv_trend,0.00018804433
+Commodities,bb_high_dist,corr_30d,0.0001869163
+Commodities,return_30d,vix_rank,0.00018578477
+Commodities,rsi,volatility_7d,0.00018498539
+Commodities,vix_rank,credit_spread_5d,0.0001846038
+Commodities,return_3d,moy_cos,0.00018306462
+Commodities,bb_low_dist,obv_trend,0.0001808628
+Commodities,return_3d,bb_low_dist,0.00017906162
+Commodities,yield_curve_slope,moy_sin,0.00017684734
+Commodities,bb_high_dist,moy_cos,0.00017005204
+Commodities,volatility_7d,corr_30d,0.00016914427
+Commodities,momentum_divergence_20d,moy_sin,0.00016714333
+Commodities,return_14d,vix_term_structure,0.000160175
+Commodities,obv_trend,moy_cos,0.00016015297
+Commodities,return_7d,credit_spread_5d,0.00015864347
+Commodities,return_30d,rsi,0.00015500763
+Commodities,moy_sin,is_month_end,0.00015440278
+Commodities,return_1d,return_30d,0.00015280787
+Commodities,obv_trend,vix_term_structure,0.00015261216
+Commodities,rsi,macd_diff,0.00014943803
+Commodities,bb_high_dist,vix_rank,0.00014929724
+Commodities,rsi,dow_cos,0.00014896263
+Commodities,vol_roc_10,yield_curve_slope,0.0001486113
+Commodities,obv_trend,corr_30d,0.00014549171
+Commodities,volatility_7d,vol_roc_10,0.00014232802
+Commodities,return_14d,yield_curve_slope,0.00014170083
+Commodities,return_7d,corr_30d,0.00014007778
+Commodities,return_3d,corr_30d,0.0001392679
+Commodities,volatility_7d,momentum_divergence_20d,0.00013622367
+Commodities,bb_high_dist,is_month_end,0.00013436367
+Commodities,return_1d,rsi,0.00012978379
+Commodities,bb_low_dist,credit_spread_5d,0.00012578891
+Commodities,return_30d,credit_spread_5d,0.00012529407
+Commodities,credit_spread_5d,moy_cos,0.00012372708
+Commodities,rsi,dow_sin,0.0001224112
+Commodities,macd_diff,moy_cos,0.0001194963
+Commodities,return_7d,momentum_divergence_20d,0.00011787639
+Commodities,bb_high_dist,yield_curve_slope,0.00011630978
+Commodities,return_30d,bb_high_dist,0.00011482264
+Commodities,rsi,atr_14,0.00011479239
+Commodities,return_14d,corr_30d,0.00011430745
+Commodities,macd_diff,bb_high_dist,0.00011391181
+Commodities,bb_low_dist,rel_strength_spy,0.00011322274
+Commodities,return_1d,moy_cos,0.000112595706
+Commodities,return_1d,yield_curve_slope,0.000112362824
+Commodities,return_14d,return_30d,0.000111268695
+Commodities,return_14d,credit_spread_5d,0.00011092877
+Commodities,rsi,rel_strength_spy,0.000110588575
+Commodities,return_3d,momentum_divergence_20d,0.00010991185
+Commodities,return_7d,volatility_7d,0.00010967788
+Commodities,atr_14,obv_trend,0.00010713658
+Commodities,momentum_divergence_20d,dow_sin,0.00010527125
+Commodities,macd_diff,vol_roc_10,0.00010444322
+Commodities,rsi,credit_spread_5d,0.00010409368
+Commodities,return_30d,moy_sin,9.966133e-05
+Commodities,macd_diff,obv_trend,9.862156e-05
+Commodities,sector_divergence,momentum_divergence_20d,9.755118e-05
+Commodities,atr_14,bb_high_dist,9.5715885e-05
+Commodities,vix_term_structure,dow_cos,9.4959556e-05
+Commodities,moy_sin,moy_cos,9.374604e-05
+Commodities,macd_diff,volatility_7d,9.356184e-05
+Commodities,return_14d,momentum_divergence_20d,9.0448644e-05
+Commodities,vix_rank,dow_sin,8.875187e-05
+Commodities,bb_high_dist,moy_sin,8.786659e-05
+Commodities,return_1d,macd_diff,8.270871e-05
+Commodities,atr_14,moy_sin,8.2310275e-05
+Commodities,return_7d,yield_curve_slope,8.038414e-05
+Commodities,vol_roc_10,corr_30d,7.966896e-05
+Commodities,bb_high_dist,vol_roc_10,7.911429e-05
+Commodities,bb_low_dist,moy_sin,7.859333e-05
+Commodities,return_14d,macd_diff,7.783413e-05
+Commodities,volatility_7d,credit_spread_5d,7.756979e-05
+Commodities,return_7d,atr_14,7.700638e-05
+Commodities,rsi,sector_divergence,7.644516e-05
+Commodities,corr_30d,sector_divergence,7.557842e-05
+Commodities,vol_roc_10,credit_spread_5d,7.497224e-05
+Commodities,return_14d,atr_14,7.192032e-05
+Commodities,return_14d,obv_trend,7.0598355e-05
+Commodities,return_3d,moy_sin,6.995832e-05
+Commodities,rel_strength_spy,vix_term_structure,6.6884764e-05
+Commodities,sector_divergence,vix_term_structure,6.522167e-05
+Commodities,return_7d,macd_diff,6.46315e-05
+Commodities,bb_high_dist,credit_spread_5d,6.28569e-05
+Commodities,bb_high_dist,rel_strength_spy,6.234023e-05
+Commodities,obv_trend,credit_spread_5d,6.0779268e-05
+Commodities,credit_spread_5d,is_month_end,6.0546314e-05
+Commodities,atr_14,vol_roc_10,5.969466e-05
+Commodities,rel_strength_spy,momentum_divergence_20d,5.9240723e-05
+Commodities,return_3d,bb_high_dist,5.8173653e-05
+Commodities,dow_sin,moy_cos,5.704729e-05
+Commodities,return_7d,moy_cos,5.6261906e-05
+Commodities,return_1d,volatility_7d,5.586905e-05
+Commodities,return_7d,obv_trend,5.5269604e-05
+Commodities,return_1d,momentum_divergence_20d,5.429965e-05
+Commodities,return_30d,obv_trend,5.2472078e-05
+Commodities,return_7d,vix_term_structure,5.159202e-05
+Commodities,return_1d,rel_strength_spy,5.154908e-05
+Commodities,return_3d,atr_14,5.099747e-05
+Commodities,volatility_7d,bb_high_dist,5.0458093e-05
+Commodities,bb_low_dist,sector_divergence,4.992201e-05
+Commodities,return_3d,rsi,4.8320904e-05
+Commodities,rsi,moy_sin,4.8030583e-05
+Commodities,return_3d,vix_term_structure,4.7060978e-05
+Commodities,bb_high_dist,obv_trend,4.357451e-05
+Commodities,return_3d,return_30d,4.3084558e-05
+Commodities,return_7d,return_14d,4.2920765e-05
+Commodities,volatility_7d,moy_sin,4.2714688e-05
+Commodities,vol_roc_10,rel_strength_spy,4.2422704e-05
+Commodities,sector_divergence,moy_cos,4.1500694e-05
+Commodities,vix_term_structure,dow_sin,3.877378e-05
+Commodities,vix_rank,rel_strength_spy,3.85205e-05
+Commodities,return_14d,volatility_7d,3.8055376e-05
+Commodities,macd_diff,rel_strength_spy,3.790023e-05
+Commodities,corr_30d,rel_strength_spy,3.6542016e-05
+Commodities,return_14d,moy_sin,3.6131143e-05
+Commodities,return_14d,moy_cos,3.6000692e-05
+Commodities,return_7d,vol_roc_10,3.550873e-05
+Commodities,rel_strength_spy,moy_cos,3.4538607e-05
+Commodities,rsi,bb_high_dist,3.43291e-05
+Commodities,return_1d,return_7d,3.375401e-05
+Commodities,return_1d,obv_trend,3.1053638e-05
+Commodities,bb_low_dist,dow_cos,3.0053268e-05
+Commodities,return_1d,atr_14,2.9710309e-05
+Commodities,vix_rank,dow_cos,2.9199775e-05
+Commodities,return_3d,volatility_7d,2.8919943e-05
+Commodities,moy_cos,is_month_end,2.7445332e-05
+Commodities,return_7d,bb_high_dist,2.641178e-05
+Commodities,bb_high_dist,sector_divergence,2.626235e-05
+Commodities,momentum_divergence_20d,dow_cos,2.5938449e-05
+Commodities,vix_term_structure,is_month_end,2.5227564e-05
+Commodities,rel_strength_spy,credit_spread_5d,2.5219771e-05
+Commodities,volatility_7d,rel_strength_spy,2.5113737e-05
+Commodities,return_3d,credit_spread_5d,2.4366866e-05
+Commodities,credit_spread_5d,dow_cos,2.4205756e-05
+Commodities,return_3d,macd_diff,2.2912853e-05
+Commodities,macd_diff,credit_spread_5d,2.2243914e-05
+Commodities,return_7d,moy_sin,2.2119482e-05
+Commodities,vix_rank,is_month_end,2.2030743e-05
+Commodities,return_1d,vol_roc_10,2.1896696e-05
+Commodities,bb_high_dist,dow_sin,2.0932082e-05
+Commodities,volatility_7d,is_month_end,2.0917058e-05
+Commodities,return_1d,return_3d,2.0013638e-05
+Commodities,return_7d,return_30d,1.8838493e-05
+Commodities,sector_divergence,credit_spread_5d,1.7818149e-05
+Commodities,corr_30d,dow_sin,1.673408e-05
+Commodities,return_1d,moy_sin,1.6588241e-05
+Commodities,return_14d,vol_roc_10,1.6212103e-05
+Commodities,return_30d,sector_divergence,1.5905987e-05
+Commodities,return_3d,return_7d,1.4372358e-05
+Commodities,return_3d,obv_trend,1.43401885e-05
+Commodities,return_7d,sector_divergence,1.38309815e-05
+Commodities,yield_curve_slope,dow_sin,1.3559802e-05
+Commodities,volatility_7d,dow_sin,1.3295364e-05
+Commodities,return_14d,dow_sin,1.3203547e-05
+Commodities,return_1d,credit_spread_5d,1.3099194e-05
+Commodities,atr_14,rel_strength_spy,1.3083619e-05
+Commodities,bb_low_dist,dow_sin,1.2775187e-05
+Commodities,vol_roc_10,obv_trend,1.2489146e-05
+Commodities,return_14d,rel_strength_spy,1.2321997e-05
+Commodities,return_1d,dow_cos,1.2307583e-05
+Commodities,volatility_7d,sector_divergence,1.16313e-05
+Commodities,return_1d,return_14d,1.1328517e-05
+Commodities,credit_spread_5d,moy_sin,1.1121626e-05
+Commodities,return_1d,corr_30d,1.102477e-05
+Commodities,yield_curve_slope,dow_cos,1.0882807e-05
+Commodities,return_14d,sector_divergence,1.0770951e-05
+Commodities,vol_roc_10,dow_sin,1.0623027e-05
+Commodities,obv_trend,moy_sin,1.0524307e-05
+Commodities,vol_roc_10,moy_cos,9.475135e-06
+Commodities,atr_14,dow_sin,9.011718e-06
+Commodities,rel_strength_spy,moy_sin,8.888745e-06
+Commodities,return_3d,dow_sin,8.361333e-06
+Commodities,return_3d,vol_roc_10,8.104708e-06
+Commodities,return_14d,dow_cos,6.9012926e-06
+Commodities,obv_trend,rel_strength_spy,6.766798e-06
+Commodities,return_7d,dow_cos,6.4488154e-06
+Commodities,obv_trend,sector_divergence,6.141198e-06
+Commodities,macd_diff,sector_divergence,5.7246525e-06
+Commodities,corr_30d,dow_cos,5.5752007e-06
+Commodities,return_7d,rel_strength_spy,5.5054084e-06
+Commodities,return_3d,return_14d,5.2842406e-06
+Commodities,vol_roc_10,moy_sin,4.7618855e-06
+Commodities,return_3d,rel_strength_spy,4.457567e-06
+Commodities,return_1d,bb_high_dist,4.3962273e-06
+Commodities,sector_divergence,yield_curve_slope,4.215624e-06
+Commodities,atr_14,dow_cos,4.1938674e-06
+Commodities,return_7d,dow_sin,4.166033e-06
+Commodities,rel_strength_spy,dow_cos,4.0169743e-06
+Commodities,dow_cos,moy_cos,3.6969823e-06
+Commodities,macd_diff,dow_sin,3.6292477e-06
+Commodities,obv_trend,dow_cos,2.5952459e-06
+Commodities,credit_spread_5d,dow_sin,2.4757878e-06
+Commodities,return_30d,rel_strength_spy,2.2588597e-06
+Commodities,return_14d,bb_high_dist,2.2494137e-06
+Commodities,dow_sin,moy_sin,2.076132e-06
+Commodities,atr_14,sector_divergence,1.6943749e-06
+Commodities,return_3d,dow_cos,1.5307758e-06
+Commodities,atr_14,is_month_end,1.3349055e-06
+Commodities,macd_diff,dow_cos,8.180053e-07
+Commodities,rsi,is_month_end,1.391999e-07
+Commodities,return_1d,sentiment_score,0.0
+Commodities,return_1d,sector_sentiment_momentum,0.0
+Commodities,return_1d,sector_divergence,0.0
+Commodities,return_1d,sector_avg_sentiment,0.0
+Commodities,return_1d,sentiment_divergence,0.0
+Commodities,return_1d,market_encoded,0.0
+Commodities,return_3d,sentiment_score,0.0
+Commodities,return_3d,sector_avg_sentiment,0.0
+Commodities,return_3d,sentiment_divergence,0.0
+Commodities,credit_spread_5d,market_encoded,0.0
+Commodities,yield_curve_slope,is_month_end,0.0
+Commodities,return_1d,dow_sin,0.0
+Commodities,return_1d,is_month_end,0.0
+Commodities,momentum_divergence_20d,market_encoded,0.0
+Commodities,dow_sin,dow_cos,0.0
+Commodities,dow_sin,is_month_end,0.0
+Commodities,dow_sin,market_encoded,0.0
+Commodities,dow_cos,moy_sin,0.0
+Commodities,dow_cos,is_month_end,0.0
+Commodities,dow_cos,market_encoded,0.0
+Commodities,moy_sin,market_encoded,0.0
+Commodities,bb_low_dist,is_month_end,0.0
+Commodities,bb_low_dist,market_encoded,0.0
+Commodities,vol_roc_10,sentiment_score,0.0
+Commodities,vol_roc_10,sector_avg_sentiment,0.0
+Commodities,vol_roc_10,sentiment_divergence,0.0
+Commodities,vol_roc_10,sector_sentiment_momentum,0.0
+Commodities,vol_roc_10,sector_divergence,0.0
+Commodities,vol_roc_10,dow_cos,0.0
+Commodities,vol_roc_10,is_month_end,0.0
+Commodities,vol_roc_10,market_encoded,0.0
+Commodities,obv_trend,sentiment_score,0.0
+Commodities,obv_trend,sector_avg_sentiment,0.0
+Commodities,obv_trend,sentiment_divergence,0.0
+Commodities,obv_trend,sector_sentiment_momentum,0.0
+Commodities,bb_high_dist,sentiment_score,0.0
+Commodities,bb_high_dist,sector_avg_sentiment,0.0
+Commodities,bb_high_dist,sentiment_divergence,0.0
+Commodities,bb_high_dist,sector_sentiment_momentum,0.0
+Commodities,bb_high_dist,dow_cos,0.0
+Commodities,bb_high_dist,market_encoded,0.0
+Commodities,bb_low_dist,sentiment_score,0.0
+Commodities,bb_low_dist,sector_avg_sentiment,0.0
+Commodities,yield_curve_slope,market_encoded,0.0
+Commodities,momentum_divergence_20d,is_month_end,0.0
+Commodities,bb_low_dist,sector_sentiment_momentum,0.0
+Commodities,bb_low_dist,sentiment_divergence,0.0
+Commodities,atr_14,sentiment_score,0.0
+Commodities,volatility_7d,dow_cos,0.0
+Commodities,atr_14,sentiment_divergence,0.0
+Commodities,atr_14,sector_sentiment_momentum,0.0
+Commodities,atr_14,market_encoded,0.0
+Commodities,volatility_7d,market_encoded,0.0
+Commodities,macd_diff,sector_avg_sentiment,0.0
+Commodities,macd_diff,sentiment_divergence,0.0
+Commodities,macd_diff,sector_sentiment_momentum,0.0
+Commodities,macd_diff,moy_sin,0.0
+Commodities,macd_diff,is_month_end,0.0
+Commodities,macd_diff,market_encoded,0.0
+Commodities,volatility_7d,sentiment_score,0.0
+Commodities,atr_14,sector_avg_sentiment,0.0
+Commodities,volatility_7d,sentiment_divergence,0.0
+Commodities,volatility_7d,sector_sentiment_momentum,0.0
+Commodities,obv_trend,dow_sin,0.0
+Commodities,obv_trend,is_month_end,0.0
+Commodities,obv_trend,market_encoded,0.0
+Commodities,corr_30d,sentiment_score,0.0
+Commodities,corr_30d,sector_avg_sentiment,0.0
+Commodities,corr_30d,sentiment_divergence,0.0
+Commodities,corr_30d,sector_sentiment_momentum,0.0
+Commodities,corr_30d,market_encoded,0.0
+Commodities,vix_rank,sentiment_score,0.0
+Commodities,vix_rank,sector_avg_sentiment,0.0
+Commodities,vix_rank,sentiment_divergence,0.0
+Commodities,vix_rank,sector_sentiment_momentum,0.0
+Commodities,rsi,sentiment_score,0.0
+Commodities,volatility_7d,sector_avg_sentiment,0.0
+Commodities,rsi,sector_avg_sentiment,0.0
+Commodities,rsi,sentiment_divergence,0.0
+Commodities,rsi,sector_sentiment_momentum,0.0
+Commodities,rsi,market_encoded,0.0
+Commodities,macd_diff,sentiment_score,0.0
+Commodities,vix_rank,market_encoded,0.0
+Commodities,rel_strength_spy,sentiment_score,0.0
+Commodities,rel_strength_spy,sector_avg_sentiment,0.0
+Commodities,rel_strength_spy,sentiment_divergence,0.0
+Commodities,rel_strength_spy,sector_sentiment_momentum,0.0
+Commodities,rel_strength_spy,sector_divergence,0.0
+Commodities,rel_strength_spy,dow_sin,0.0
+Commodities,rel_strength_spy,is_month_end,0.0
+Commodities,rel_strength_spy,market_encoded,0.0
+Commodities,sentiment_score,sector_avg_sentiment,0.0
+Commodities,sentiment_score,sentiment_divergence,0.0
+Commodities,sentiment_score,sector_sentiment_momentum,0.0
+Commodities,sentiment_score,sector_divergence,0.0
+Commodities,sentiment_score,vix_term_structure,0.0
+Commodities,sentiment_score,credit_spread_5d,0.0
+Commodities,sentiment_score,yield_curve_slope,0.0
+Commodities,sentiment_score,momentum_divergence_20d,0.0
+Commodities,sentiment_score,dow_sin,0.0
+Commodities,sentiment_score,dow_cos,0.0
+Commodities,sentiment_score,moy_sin,0.0
+Commodities,sentiment_score,moy_cos,0.0
+Commodities,sentiment_score,is_month_end,0.0
+Commodities,sentiment_score,market_encoded,0.0
+Commodities,sector_avg_sentiment,sentiment_divergence,0.0
+Commodities,sector_avg_sentiment,sector_sentiment_momentum,0.0
+Commodities,sector_avg_sentiment,sector_divergence,0.0
+Commodities,sector_avg_sentiment,vix_term_structure,0.0
+Commodities,sector_avg_sentiment,credit_spread_5d,0.0
+Commodities,sector_avg_sentiment,yield_curve_slope,0.0
+Commodities,sector_avg_sentiment,momentum_divergence_20d,0.0
+Commodities,sector_avg_sentiment,dow_sin,0.0
+Commodities,sector_avg_sentiment,dow_cos,0.0
+Commodities,sector_avg_sentiment,moy_sin,0.0
+Commodities,sector_avg_sentiment,moy_cos,0.0
+Commodities,sector_avg_sentiment,is_month_end,0.0
+Commodities,sector_avg_sentiment,market_encoded,0.0
+Commodities,sentiment_divergence,sector_sentiment_momentum,0.0
+Commodities,sentiment_divergence,sector_divergence,0.0
+Commodities,sentiment_divergence,vix_term_structure,0.0
+Commodities,sentiment_divergence,credit_spread_5d,0.0
+Commodities,sentiment_divergence,yield_curve_slope,0.0
+Commodities,sentiment_divergence,momentum_divergence_20d,0.0
+Commodities,sentiment_divergence,dow_sin,0.0
+Commodities,sentiment_divergence,dow_cos,0.0
+Commodities,sentiment_divergence,moy_sin,0.0
+Commodities,sentiment_divergence,moy_cos,0.0
+Commodities,sentiment_divergence,is_month_end,0.0
+Commodities,sentiment_divergence,market_encoded,0.0
+Commodities,return_14d,is_month_end,0.0
+Commodities,return_14d,market_encoded,0.0
+Commodities,return_30d,sentiment_score,0.0
+Commodities,return_30d,sector_avg_sentiment,0.0
+Commodities,return_30d,sentiment_divergence,0.0
+Commodities,return_30d,sector_sentiment_momentum,0.0
+Commodities,return_30d,dow_sin,0.0
+Commodities,return_30d,dow_cos,0.0
+Commodities,return_30d,is_month_end,0.0
+Commodities,return_30d,market_encoded,0.0
+Commodities,return_7d,is_month_end,0.0
+Commodities,return_7d,market_encoded,0.0
+Commodities,return_14d,sentiment_score,0.0
+Commodities,return_14d,sector_avg_sentiment,0.0
+Commodities,return_14d,sentiment_divergence,0.0
+Commodities,return_14d,sector_sentiment_momentum,0.0
+Commodities,return_3d,sector_sentiment_momentum,0.0
+Commodities,return_3d,sector_divergence,0.0
+Commodities,return_3d,is_month_end,0.0
+Commodities,return_3d,market_encoded,0.0
+Commodities,return_7d,sentiment_score,0.0
+Commodities,return_7d,sector_avg_sentiment,0.0
+Commodities,return_7d,sentiment_divergence,0.0
+Commodities,return_7d,sector_sentiment_momentum,0.0
+Commodities,sector_sentiment_momentum,sector_divergence,0.0
+Commodities,sector_sentiment_momentum,vix_term_structure,0.0
+Commodities,sector_sentiment_momentum,credit_spread_5d,0.0
+Commodities,sector_sentiment_momentum,yield_curve_slope,0.0
+Commodities,sector_sentiment_momentum,momentum_divergence_20d,0.0
+Commodities,sector_sentiment_momentum,dow_sin,0.0
+Commodities,sector_sentiment_momentum,dow_cos,0.0
+Commodities,sector_sentiment_momentum,moy_sin,0.0
+Commodities,sector_sentiment_momentum,moy_cos,0.0
+Commodities,sector_sentiment_momentum,is_month_end,0.0
+Commodities,sector_sentiment_momentum,market_encoded,0.0
+Commodities,sector_divergence,dow_sin,0.0
+Commodities,sector_divergence,dow_cos,0.0
+Commodities,sector_divergence,moy_sin,0.0
+Commodities,sector_divergence,is_month_end,0.0
+Commodities,sector_divergence,market_encoded,0.0
+Commodities,vix_term_structure,market_encoded,0.0
+Commodities,moy_cos,market_encoded,0.0
+Commodities,is_month_end,market_encoded,0.0
+Safe Havens,corr_30d,moy_sin,0.00043128658
+Safe Havens,obv_trend,corr_30d,0.00036230296
+Safe Havens,corr_30d,moy_cos,0.00032778477
+Safe Havens,atr_14,moy_sin,0.00032588176
+Safe Havens,macd_diff,corr_30d,0.00028106943
+Safe Havens,return_3d,corr_30d,0.0002667517
+Safe Havens,obv_trend,yield_curve_slope,0.00020474766
+Safe Havens,moy_sin,moy_cos,0.00014929402
+Safe Havens,macd_diff,moy_cos,0.00014922311
+Safe Havens,atr_14,corr_30d,0.0001391505
+Safe Havens,obv_trend,moy_sin,0.00013739096
+Safe Havens,bb_low_dist,corr_30d,0.00013498879
+Safe Havens,rsi,atr_14,0.0001273743
+Safe Havens,atr_14,bb_low_dist,0.00012657024
+Safe Havens,obv_trend,moy_cos,0.00012330769
+Safe Havens,macd_diff,obv_trend,0.00011290695
+Safe Havens,return_3d,bb_low_dist,9.6968e-05
+Safe Havens,vix_term_structure,moy_sin,9.2477756e-05
+Safe Havens,vix_term_structure,yield_curve_slope,9.149548e-05
+Safe Havens,vol_roc_10,obv_trend,8.024671e-05
+Safe Havens,obv_trend,vix_term_structure,7.823007e-05
+Safe Havens,obv_trend,dow_sin,7.4101285e-05
+Safe Havens,return_3d,moy_cos,7.207682e-05
+Safe Havens,atr_14,obv_trend,6.986665e-05
+Safe Havens,rsi,moy_sin,6.437346e-05
+Safe Havens,yield_curve_slope,moy_sin,6.33885e-05
+Safe Havens,obv_trend,momentum_divergence_20d,5.727784e-05
+Safe Havens,corr_30d,yield_curve_slope,5.3915086e-05
+Safe Havens,yield_curve_slope,dow_sin,5.3064065e-05
+Safe Havens,return_3d,moy_sin,5.300086e-05
+Safe Havens,rsi,obv_trend,5.095847e-05
+Safe Havens,return_3d,yield_curve_slope,4.3882777e-05
+Safe Havens,macd_diff,atr_14,4.3633376e-05
+Safe Havens,bb_low_dist,yield_curve_slope,3.8962615e-05
+Safe Havens,macd_diff,moy_sin,3.6088284e-05
+Safe Havens,return_3d,macd_diff,3.484146e-05
+Safe Havens,corr_30d,vix_term_structure,3.476929e-05
+Safe Havens,bb_low_dist,moy_sin,3.4226818e-05
+Safe Havens,return_14d,moy_sin,3.217591e-05
+Safe Havens,rsi,corr_30d,2.8122337e-05
+Safe Havens,vol_roc_10,corr_30d,2.8106115e-05
+Safe Havens,yield_curve_slope,momentum_divergence_20d,2.2815846e-05
+Safe Havens,bb_low_dist,obv_trend,1.8617933e-05
+Safe Havens,bb_high_dist,corr_30d,1.3305937e-05
+Safe Havens,vix_term_structure,momentum_divergence_20d,1.3225231e-05
+Safe Havens,rsi,vix_term_structure,4.868466e-06
+Safe Havens,macd_diff,vol_roc_10,3.871886e-06
+Safe Havens,macd_diff,bb_low_dist,3.2588946e-06
+Safe Havens,return_14d,obv_trend,1.7556305e-06
+Safe Havens,return_14d,vix_term_structure,1.2788175e-06
+Safe Havens,bb_low_dist,vol_roc_10,2.4296745e-07
+Safe Havens,bb_high_dist,vol_roc_10,1.9252091e-07
+Safe Havens,bb_high_dist,bb_low_dist,1.5952074e-07
+Safe Havens,sector_sentiment_momentum,momentum_divergence_20d,0.0
+Safe Havens,sector_sentiment_momentum,dow_sin,0.0
+Safe Havens,sector_sentiment_momentum,dow_cos,0.0
+Safe Havens,sector_sentiment_momentum,moy_sin,0.0
+Safe Havens,sector_sentiment_momentum,moy_cos,0.0
+Safe Havens,sector_sentiment_momentum,is_month_end,0.0
+Safe Havens,sector_divergence,vix_term_structure,0.0
+Safe Havens,sector_divergence,credit_spread_5d,0.0
+Safe Havens,sector_divergence,yield_curve_slope,0.0
+Safe Havens,sector_divergence,momentum_divergence_20d,0.0
+Safe Havens,sector_divergence,dow_sin,0.0
+Safe Havens,sector_divergence,dow_cos,0.0
+Safe Havens,sector_divergence,moy_sin,0.0
+Safe Havens,sector_divergence,moy_cos,0.0
+Safe Havens,sector_divergence,is_month_end,0.0
+Safe Havens,vix_term_structure,credit_spread_5d,0.0
+Safe Havens,return_1d,rsi,0.0
+Safe Havens,return_3d,momentum_divergence_20d,0.0
+Safe Havens,return_3d,dow_sin,0.0
+Safe Havens,return_3d,dow_cos,0.0
+Safe Havens,return_1d,bb_low_dist,0.0
+Safe Havens,return_3d,is_month_end,0.0
+Safe Havens,return_7d,return_14d,0.0
+Safe Havens,return_7d,return_30d,0.0
+Safe Havens,return_7d,rsi,0.0
+Safe Havens,return_7d,macd_diff,0.0
+Safe Havens,return_7d,volatility_7d,0.0
+Safe Havens,return_7d,atr_14,0.0
+Safe Havens,return_7d,bb_high_dist,0.0
+Safe Havens,return_7d,bb_low_dist,0.0
+Safe Havens,return_7d,vol_roc_10,0.0
+Safe Havens,return_7d,obv_trend,0.0
+Safe Havens,return_7d,corr_30d,0.0
+Safe Havens,return_7d,vix_rank,0.0
+Safe Havens,return_7d,rel_strength_spy,0.0
+Safe Havens,return_7d,sentiment_score,0.0
+Safe Havens,return_7d,sector_avg_sentiment,0.0
+Safe Havens,return_7d,sentiment_divergence,0.0
+Safe Havens,return_7d,sector_sentiment_momentum,0.0
+Safe Havens,return_7d,sector_divergence,0.0
+Safe Havens,return_7d,vix_term_structure,0.0
+Safe Havens,return_7d,credit_spread_5d,0.0
+Safe Havens,return_7d,yield_curve_slope,0.0
+Safe Havens,return_7d,momentum_divergence_20d,0.0
+Safe Havens,return_7d,dow_sin,0.0
+Safe Havens,return_7d,dow_cos,0.0
+Safe Havens,return_7d,moy_sin,0.0
+Safe Havens,return_7d,moy_cos,0.0
+Safe Havens,return_7d,is_month_end,0.0
+Safe Havens,return_14d,return_30d,0.0
+Safe Havens,return_14d,rsi,0.0
+Safe Havens,return_14d,macd_diff,0.0
+Safe Havens,return_14d,volatility_7d,0.0
+Safe Havens,return_14d,atr_14,0.0
+Safe Havens,return_14d,bb_high_dist,0.0
+Safe Havens,return_14d,bb_low_dist,0.0
+Safe Havens,return_14d,vol_roc_10,0.0
+Safe Havens,return_14d,corr_30d,0.0
+Safe Havens,return_14d,vix_rank,0.0
+Safe Havens,return_14d,rel_strength_spy,0.0
+Safe Havens,return_14d,sentiment_score,0.0
+Safe Havens,return_14d,sector_avg_sentiment,0.0
+Safe Havens,return_14d,sentiment_divergence,0.0
+Safe Havens,return_14d,sector_sentiment_momentum,0.0
+Safe Havens,return_14d,sector_divergence,0.0
+Safe Havens,return_14d,credit_spread_5d,0.0
+Safe Havens,return_14d,yield_curve_slope,0.0
+Safe Havens,return_14d,momentum_divergence_20d,0.0
+Safe Havens,return_14d,dow_sin,0.0
+Safe Havens,return_14d,dow_cos,0.0
+Safe Havens,return_14d,moy_cos,0.0
+Safe Havens,return_14d,is_month_end,0.0
+Safe Havens,return_30d,rsi,0.0
+Safe Havens,return_30d,macd_diff,0.0
+Safe Havens,return_30d,volatility_7d,0.0
+Safe Havens,return_30d,atr_14,0.0
+Safe Havens,return_30d,bb_high_dist,0.0
+Safe Havens,return_30d,bb_low_dist,0.0
+Safe Havens,return_30d,vol_roc_10,0.0
+Safe Havens,return_30d,obv_trend,0.0
+Safe Havens,return_30d,corr_30d,0.0
+Safe Havens,return_30d,vix_rank,0.0
+Safe Havens,return_30d,rel_strength_spy,0.0
+Safe Havens,return_30d,sentiment_score,0.0
+Safe Havens,return_30d,sector_avg_sentiment,0.0
+Safe Havens,return_30d,sentiment_divergence,0.0
+Safe Havens,return_30d,sector_sentiment_momentum,0.0
+Safe Havens,return_30d,sector_divergence,0.0
+Safe Havens,return_30d,vix_term_structure,0.0
+Safe Havens,return_30d,credit_spread_5d,0.0
+Safe Havens,return_30d,yield_curve_slope,0.0
+Safe Havens,return_30d,momentum_divergence_20d,0.0
+Safe Havens,return_30d,dow_sin,0.0
+Safe Havens,return_30d,dow_cos,0.0
+Safe Havens,return_30d,moy_sin,0.0
+Safe Havens,return_30d,moy_cos,0.0
+Safe Havens,return_30d,is_month_end,0.0
+Safe Havens,rsi,macd_diff,0.0
+Safe Havens,rsi,volatility_7d,0.0
+Safe Havens,rsi,bb_high_dist,0.0
+Safe Havens,rsi,bb_low_dist,0.0
+Safe Havens,rsi,vol_roc_10,0.0
+Safe Havens,rsi,vix_rank,0.0
+Safe Havens,rsi,rel_strength_spy,0.0
+Safe Havens,rsi,sentiment_score,0.0
+Safe Havens,rsi,sector_avg_sentiment,0.0
+Safe Havens,rsi,sentiment_divergence,0.0
+Safe Havens,rsi,sector_sentiment_momentum,0.0
+Safe Havens,rsi,sector_divergence,0.0
+Safe Havens,rsi,credit_spread_5d,0.0
+Safe Havens,rsi,yield_curve_slope,0.0
+Safe Havens,rsi,momentum_divergence_20d,0.0
+Safe Havens,rsi,dow_sin,0.0
+Safe Havens,rsi,dow_cos,0.0
+Safe Havens,rsi,moy_cos,0.0
+Safe Havens,rsi,is_month_end,0.0
+Safe Havens,macd_diff,volatility_7d,0.0
+Safe Havens,macd_diff,bb_high_dist,0.0
+Safe Havens,macd_diff,vix_rank,0.0
+Safe Havens,macd_diff,rel_strength_spy,0.0
+Safe Havens,macd_diff,sentiment_score,0.0
+Safe Havens,macd_diff,sector_avg_sentiment,0.0
+Safe Havens,macd_diff,sentiment_divergence,0.0
+Safe Havens,macd_diff,sector_sentiment_momentum,0.0
+Safe Havens,macd_diff,sector_divergence,0.0
+Safe Havens,macd_diff,vix_term_structure,0.0
+Safe Havens,macd_diff,credit_spread_5d,0.0
+Safe Havens,macd_diff,yield_curve_slope,0.0
+Safe Havens,macd_diff,momentum_divergence_20d,0.0
+Safe Havens,macd_diff,dow_sin,0.0
+Safe Havens,macd_diff,dow_cos,0.0
+Safe Havens,macd_diff,is_month_end,0.0
+Safe Havens,volatility_7d,atr_14,0.0
+Safe Havens,volatility_7d,bb_high_dist,0.0
+Safe Havens,volatility_7d,bb_low_dist,0.0
+Safe Havens,volatility_7d,vol_roc_10,0.0
+Safe Havens,volatility_7d,obv_trend,0.0
+Safe Havens,volatility_7d,corr_30d,0.0
+Safe Havens,volatility_7d,vix_rank,0.0
+Safe Havens,volatility_7d,rel_strength_spy,0.0
+Safe Havens,volatility_7d,sentiment_score,0.0
+Safe Havens,volatility_7d,sector_avg_sentiment,0.0
+Safe Havens,volatility_7d,sentiment_divergence,0.0
+Safe Havens,volatility_7d,sector_sentiment_momentum,0.0
+Safe Havens,volatility_7d,sector_divergence,0.0
+Safe Havens,volatility_7d,vix_term_structure,0.0
+Safe Havens,volatility_7d,credit_spread_5d,0.0
+Safe Havens,volatility_7d,yield_curve_slope,0.0
+Safe Havens,volatility_7d,momentum_divergence_20d,0.0
+Safe Havens,volatility_7d,dow_sin,0.0
+Safe Havens,volatility_7d,dow_cos,0.0
+Safe Havens,volatility_7d,moy_sin,0.0
+Safe Havens,volatility_7d,moy_cos,0.0
+Safe Havens,volatility_7d,is_month_end,0.0
+Safe Havens,atr_14,bb_high_dist,0.0
+Safe Havens,atr_14,vol_roc_10,0.0
+Safe Havens,atr_14,vix_rank,0.0
+Safe Havens,atr_14,rel_strength_spy,0.0
+Safe Havens,atr_14,sentiment_score,0.0
+Safe Havens,atr_14,sector_avg_sentiment,0.0
+Safe Havens,atr_14,sentiment_divergence,0.0
+Safe Havens,atr_14,sector_sentiment_momentum,0.0
+Safe Havens,atr_14,sector_divergence,0.0
+Safe Havens,atr_14,vix_term_structure,0.0
+Safe Havens,atr_14,credit_spread_5d,0.0
+Safe Havens,atr_14,yield_curve_slope,0.0
+Safe Havens,atr_14,momentum_divergence_20d,0.0
+Safe Havens,atr_14,dow_sin,0.0
+Safe Havens,atr_14,dow_cos,0.0
+Safe Havens,return_1d,vol_roc_10,0.0
+Safe Havens,atr_14,moy_cos,0.0
+Safe Havens,atr_14,is_month_end,0.0
+Safe Havens,return_1d,obv_trend,0.0
+Safe Havens,return_1d,corr_30d,0.0
+Safe Havens,bb_high_dist,obv_trend,0.0
+Safe Havens,return_1d,vix_rank,0.0
+Safe Havens,bb_high_dist,vix_rank,0.0
+Safe Havens,bb_high_dist,rel_strength_spy,0.0
+Safe Havens,bb_high_dist,sentiment_score,0.0
+Safe Havens,bb_high_dist,sector_avg_sentiment,0.0
+Safe Havens,bb_high_dist,sentiment_divergence,0.0
+Safe Havens,bb_high_dist,sector_sentiment_momentum,0.0
+Safe Havens,bb_high_dist,sector_divergence,0.0
+Safe Havens,bb_high_dist,vix_term_structure,0.0
+Safe Havens,bb_high_dist,credit_spread_5d,0.0
+Safe Havens,bb_high_dist,yield_curve_slope,0.0
+Safe Havens,bb_high_dist,momentum_divergence_20d,0.0
+Safe Havens,bb_high_dist,dow_sin,0.0
+Safe Havens,bb_high_dist,dow_cos,0.0
+Safe Havens,bb_high_dist,moy_sin,0.0
+Safe Havens,bb_high_dist,moy_cos,0.0
+Safe Havens,bb_high_dist,is_month_end,0.0
+Safe Havens,return_1d,rel_strength_spy,0.0
+Safe Havens,return_1d,sentiment_score,0.0
+Safe Havens,return_1d,sector_avg_sentiment,0.0
+Safe Havens,bb_low_dist,vix_rank,0.0
+Safe Havens,bb_low_dist,rel_strength_spy,0.0
+Safe Havens,bb_low_dist,sentiment_score,0.0
+Safe Havens,bb_low_dist,sector_avg_sentiment,0.0
+Safe Havens,bb_low_dist,sentiment_divergence,0.0
+Safe Havens,bb_low_dist,sector_sentiment_momentum,0.0
+Safe Havens,bb_low_dist,sector_divergence,0.0
+Safe Havens,bb_low_dist,vix_term_structure,0.0
+Safe Havens,bb_low_dist,credit_spread_5d,0.0
+Safe Havens,return_1d,sentiment_divergence,0.0
+Safe Havens,bb_low_dist,momentum_divergence_20d,0.0
+Safe Havens,bb_low_dist,dow_sin,0.0
+Safe Havens,bb_low_dist,dow_cos,0.0
+Safe Havens,return_1d,sector_sentiment_momentum,0.0
+Safe Havens,bb_low_dist,moy_cos,0.0
+Safe Havens,bb_low_dist,is_month_end,0.0
+Safe Havens,sentiment_divergence,moy_cos,0.0
+Safe Havens,credit_spread_5d,dow_cos,0.0
+Safe Havens,vol_roc_10,vix_rank,0.0
+Safe Havens,vol_roc_10,rel_strength_spy,0.0
+Safe Havens,vol_roc_10,sentiment_score,0.0
+Safe Havens,vol_roc_10,sector_avg_sentiment,0.0
+Safe Havens,vol_roc_10,sentiment_divergence,0.0
+Safe Havens,vol_roc_10,sector_sentiment_momentum,0.0
+Safe Havens,vol_roc_10,sector_divergence,0.0
+Safe Havens,vol_roc_10,vix_term_structure,0.0
+Safe Havens,vol_roc_10,credit_spread_5d,0.0
+Safe Havens,vol_roc_10,yield_curve_slope,0.0
+Safe Havens,vol_roc_10,momentum_divergence_20d,0.0
+Safe Havens,vol_roc_10,dow_sin,0.0
+Safe Havens,vol_roc_10,dow_cos,0.0
+Safe Havens,vol_roc_10,moy_sin,0.0
+Safe Havens,vol_roc_10,moy_cos,0.0
+Safe Havens,vol_roc_10,is_month_end,0.0
+Safe Havens,vix_term_structure,dow_sin,0.0
+Safe Havens,obv_trend,vix_rank,0.0
+Safe Havens,obv_trend,rel_strength_spy,0.0
+Safe Havens,obv_trend,sentiment_score,0.0
+Safe Havens,obv_trend,sector_avg_sentiment,0.0
+Safe Havens,obv_trend,sentiment_divergence,0.0
+Safe Havens,obv_trend,sector_sentiment_momentum,0.0
+Safe Havens,obv_trend,sector_divergence,0.0
+Safe Havens,return_1d,moy_sin,0.0
+Safe Havens,obv_trend,credit_spread_5d,0.0
+Safe Havens,moy_cos,is_month_end,0.0
+Safe Havens,return_1d,return_3d,0.0
+Safe Havens,return_1d,return_7d,0.0
+Safe Havens,obv_trend,dow_cos,0.0
+Safe Havens,return_1d,return_14d,0.0
+Safe Havens,sentiment_divergence,vix_term_structure,0.0
+Safe Havens,obv_trend,is_month_end,0.0
+Safe Havens,corr_30d,vix_rank,0.0
+Safe Havens,corr_30d,rel_strength_spy,0.0
+Safe Havens,corr_30d,sentiment_score,0.0
+Safe Havens,corr_30d,sector_avg_sentiment,0.0
+Safe Havens,corr_30d,sentiment_divergence,0.0
+Safe Havens,corr_30d,sector_sentiment_momentum,0.0
+Safe Havens,corr_30d,sector_divergence,0.0
+Safe Havens,sentiment_divergence,credit_spread_5d,0.0
+Safe Havens,corr_30d,credit_spread_5d,0.0
+Safe Havens,sentiment_divergence,yield_curve_slope,0.0
+Safe Havens,corr_30d,momentum_divergence_20d,0.0
+Safe Havens,corr_30d,dow_sin,0.0
+Safe Havens,corr_30d,dow_cos,0.0
+Safe Havens,sentiment_divergence,momentum_divergence_20d,0.0
+Safe Havens,sentiment_divergence,dow_sin,0.0
+Safe Havens,corr_30d,is_month_end,0.0
+Safe Havens,vix_rank,rel_strength_spy,0.0
+Safe Havens,vix_rank,sentiment_score,0.0
+Safe Havens,vix_rank,sector_avg_sentiment,0.0
+Safe Havens,vix_rank,sentiment_divergence,0.0
+Safe Havens,vix_rank,sector_sentiment_momentum,0.0
+Safe Havens,vix_rank,sector_divergence,0.0
+Safe Havens,vix_rank,vix_term_structure,0.0
+Safe Havens,vix_rank,credit_spread_5d,0.0
+Safe Havens,vix_rank,yield_curve_slope,0.0
+Safe Havens,vix_rank,momentum_divergence_20d,0.0
+Safe Havens,vix_rank,dow_sin,0.0
+Safe Havens,vix_rank,dow_cos,0.0
+Safe Havens,vix_rank,moy_sin,0.0
+Safe Havens,vix_rank,moy_cos,0.0
+Safe Havens,vix_rank,is_month_end,0.0
+Safe Havens,rel_strength_spy,sentiment_score,0.0
+Safe Havens,rel_strength_spy,sector_avg_sentiment,0.0
+Safe Havens,rel_strength_spy,sentiment_divergence,0.0
+Safe Havens,rel_strength_spy,sector_sentiment_momentum,0.0
+Safe Havens,rel_strength_spy,sector_divergence,0.0
+Safe Havens,rel_strength_spy,vix_term_structure,0.0
+Safe Havens,rel_strength_spy,credit_spread_5d,0.0
+Safe Havens,rel_strength_spy,yield_curve_slope,0.0
+Safe Havens,rel_strength_spy,momentum_divergence_20d,0.0
+Safe Havens,rel_strength_spy,dow_sin,0.0
+Safe Havens,rel_strength_spy,dow_cos,0.0
+Safe Havens,rel_strength_spy,moy_sin,0.0
+Safe Havens,rel_strength_spy,moy_cos,0.0
+Safe Havens,rel_strength_spy,is_month_end,0.0
+Safe Havens,sentiment_score,sector_avg_sentiment,0.0
+Safe Havens,sentiment_score,sentiment_divergence,0.0
+Safe Havens,sentiment_score,sector_sentiment_momentum,0.0
+Safe Havens,sentiment_score,sector_divergence,0.0
+Safe Havens,sentiment_score,vix_term_structure,0.0
+Safe Havens,sentiment_score,credit_spread_5d,0.0
+Safe Havens,sentiment_score,yield_curve_slope,0.0
+Safe Havens,sentiment_score,momentum_divergence_20d,0.0
+Safe Havens,sentiment_score,dow_sin,0.0
+Safe Havens,sentiment_score,dow_cos,0.0
+Safe Havens,sentiment_score,moy_sin,0.0
+Safe Havens,sentiment_score,moy_cos,0.0
+Safe Havens,sentiment_score,is_month_end,0.0
+Safe Havens,sector_avg_sentiment,sentiment_divergence,0.0
+Safe Havens,sector_avg_sentiment,sector_sentiment_momentum,0.0
+Safe Havens,sector_avg_sentiment,sector_divergence,0.0
+Safe Havens,sector_avg_sentiment,vix_term_structure,0.0
+Safe Havens,sector_avg_sentiment,credit_spread_5d,0.0
+Safe Havens,sector_avg_sentiment,yield_curve_slope,0.0
+Safe Havens,sector_avg_sentiment,momentum_divergence_20d,0.0
+Safe Havens,sector_avg_sentiment,dow_sin,0.0
+Safe Havens,sector_avg_sentiment,dow_cos,0.0
+Safe Havens,sector_avg_sentiment,moy_sin,0.0
+Safe Havens,sector_avg_sentiment,moy_cos,0.0
+Safe Havens,sector_avg_sentiment,is_month_end,0.0
+Safe Havens,sentiment_divergence,sector_sentiment_momentum,0.0
+Safe Havens,sentiment_divergence,sector_divergence,0.0
+Safe Havens,vix_term_structure,dow_cos,0.0
+Safe Havens,sentiment_divergence,dow_cos,0.0
+Safe Havens,vix_term_structure,moy_cos,0.0
+Safe Havens,vix_term_structure,is_month_end,0.0
+Safe Havens,credit_spread_5d,yield_curve_slope,0.0
+Safe Havens,credit_spread_5d,momentum_divergence_20d,0.0
+Safe Havens,credit_spread_5d,dow_sin,0.0
+Safe Havens,return_1d,return_30d,0.0
+Safe Havens,credit_spread_5d,moy_sin,0.0
+Safe Havens,credit_spread_5d,moy_cos,0.0
+Safe Havens,credit_spread_5d,is_month_end,0.0
+Safe Havens,sentiment_divergence,moy_sin,0.0
+Safe Havens,return_1d,atr_14,0.0
+Safe Havens,yield_curve_slope,dow_cos,0.0
+Safe Havens,sentiment_divergence,is_month_end,0.0
+Safe Havens,yield_curve_slope,moy_cos,0.0
+Safe Havens,yield_curve_slope,is_month_end,0.0
+Safe Havens,momentum_divergence_20d,dow_sin,0.0
+Safe Havens,momentum_divergence_20d,dow_cos,0.0
+Safe Havens,momentum_divergence_20d,moy_sin,0.0
+Safe Havens,momentum_divergence_20d,moy_cos,0.0
+Safe Havens,momentum_divergence_20d,is_month_end,0.0
+Safe Havens,dow_sin,dow_cos,0.0
+Safe Havens,dow_sin,moy_sin,0.0
+Safe Havens,dow_sin,moy_cos,0.0
+Safe Havens,dow_sin,is_month_end,0.0
+Safe Havens,dow_cos,moy_sin,0.0
+Safe Havens,dow_cos,moy_cos,0.0
+Safe Havens,dow_cos,is_month_end,0.0
+Safe Havens,sector_sentiment_momentum,sector_divergence,0.0
+Safe Havens,moy_sin,is_month_end,0.0
+Safe Havens,return_1d,volatility_7d,0.0
+Safe Havens,return_1d,sector_divergence,0.0
+Safe Havens,return_1d,vix_term_structure,0.0
+Safe Havens,return_1d,credit_spread_5d,0.0
+Safe Havens,return_1d,yield_curve_slope,0.0
+Safe Havens,return_1d,momentum_divergence_20d,0.0
+Safe Havens,return_1d,dow_sin,0.0
+Safe Havens,return_1d,dow_cos,0.0
+Safe Havens,return_1d,macd_diff,0.0
+Safe Havens,return_1d,moy_cos,0.0
+Safe Havens,return_1d,is_month_end,0.0
+Safe Havens,return_3d,return_7d,0.0
+Safe Havens,return_3d,return_14d,0.0
+Safe Havens,return_3d,return_30d,0.0
+Safe Havens,return_3d,rsi,0.0
+Safe Havens,sector_sentiment_momentum,vix_term_structure,0.0
+Safe Havens,return_3d,volatility_7d,0.0
+Safe Havens,return_3d,atr_14,0.0
+Safe Havens,return_3d,bb_high_dist,0.0
+Safe Havens,sector_sentiment_momentum,credit_spread_5d,0.0
+Safe Havens,return_3d,vol_roc_10,0.0
+Safe Havens,return_3d,obv_trend,0.0
+Safe Havens,sector_sentiment_momentum,yield_curve_slope,0.0
+Safe Havens,return_3d,vix_rank,0.0
+Safe Havens,return_3d,rel_strength_spy,0.0
+Safe Havens,return_3d,sentiment_score,0.0
+Safe Havens,return_3d,sector_avg_sentiment,0.0
+Safe Havens,return_3d,sentiment_divergence,0.0
+Safe Havens,return_3d,sector_sentiment_momentum,0.0
+Safe Havens,return_3d,sector_divergence,0.0
+Safe Havens,return_3d,vix_term_structure,0.0
+Safe Havens,return_3d,credit_spread_5d,0.0
+Safe Havens,return_1d,bb_high_dist,0.0

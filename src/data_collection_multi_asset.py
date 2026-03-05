@@ -15,10 +15,16 @@ ASSET_CONFIG = {
     "International": [
         {"ticker": "^AXJO", "name": "S&P/ASX 200 Index"},
         {"ticker": "EWA", "name": "MSCI Australia ETF"},
-        {"ticker": "EWJ", "name": "MSCI Japan ETF"},
+        # {"ticker": "EWJ", "name": "MSCI Japan ETF"},
+        # {"ticker": "^N225", "name": "Nikkei 225"},
         {"ticker": "EWU", "name": "MSCI United Kingdom ETF"},
         {"ticker": "EWG", "name": "MSCI Germany ETF"},
-        {"ticker": "MCHI", "name": "MSCI China ETF"},
+        # {"ticker": "MCHI", "name": "MSCI China ETF"},
+        # {"ticker": "FXI", "name": "iShares China Large-Cap ETF"},
+        # {"ticker": "KWEB", "name": "KraneShares China Internet ETF"},
+        # {"ticker": "^HSI", "name": "Hang Seng Index"},
+        # {"ticker": "EWY", "name": "MSCI South Korea ETF"},
+        # {"ticker": "EPI", "name": "WisdomTree India Earnings ETF"},
         {"ticker": "EWZ", "name": "MSCI Brazil ETF"}
     ],
     "Commodities": [
@@ -29,6 +35,17 @@ ASSET_CONFIG = {
     "Risk": [
         {"ticker": "^VIX", "name": "Volatility Index"},
         {"ticker": "TLT", "name": "20+ Yr Treasury Bond ETF"}
+    ],
+    "Macro": [
+        {"ticker": "^VIX3M", "name": "VIX 3-Month Index"},
+        {"ticker": "HYG", "name": "High Yield Corporate Bond ETF"},
+        {"ticker": "IEF", "name": "7-10 Year Treasury Bond ETF"},
+        {"ticker": "^TNX", "name": "10-Year Treasury Yield"},
+        {"ticker": "^IRX", "name": "13-Week Treasury Bill Rate"},
+        {"ticker": "EEM", "name": "Emerging Markets ETF"},
+        {"ticker": "TIP", "name": "TIPS Bond ETF"},
+        {"ticker": "UUP", "name": "US Dollar Index Bullish Fund"},
+        {"ticker": "GDX", "name": "Gold Miners ETF"},
     ]
 }
 

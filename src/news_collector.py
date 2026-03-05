@@ -31,7 +31,6 @@ def is_duplicate(url, db_path="database/stocks.db"):
         return cursor.fetchone() is not None
 
 def fetch_and_store_news():
-    """Fetches news from RSS feeds, filters, and stores in the database."""
     db_path = "database/stocks.db"
     create_news_table(db_path)
 
@@ -40,46 +39,33 @@ def fetch_and_store_news():
         "Wall Street Journal": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
         "Investing.com": "https://www.investing.com/rss/news_25.rss"
     }
-    keywords = {'stock', 'market', 's&p', 'spy', 'trading', 'finance', 'economy', 'business', 'earnings'}
-    seven_days_ago = datetime.now() - timedelta(days=7)
+    keywords = {'stock', 'market', 's&p', 'spy', 'trading', 'finance', 'economy', 'business', 'earnings', 'nvidia', 'iran', 'rba', 'fed', 'middle east'}
+    # Extend to 30 days to fetch historical news for the full month
+    search_limit_days = 30
+    time_threshold = datetime.now() - timedelta(days=search_limit_days)
     articles_added = 0
 
-    print(f"Looking for articles from the last 7 days containing the keywords: {keywords}")
+    print()
+    print(f"Fetching news from the last {search_limit_days} days containing keywords: {keywords}")
 
     for source, url in feeds.items():
-        print(f"\\nFetching news from {source}...")
+        print(f"Fetching from {source}...")
         feed = feedparser.parse(url)
         
-        if not feed.entries:
-            print(f"  - No articles found in feed.")
-            continue
-
         for entry in feed.entries:
             title = entry.get("title", "")
-            
             published_struct = entry.get("published_parsed", entry.get("updated_parsed"))
-            if not published_struct:
-                print(f"  - Skipped (no date): {title[:60]}...")
-                continue
+            if not published_struct: continue
 
             published_date = datetime.fromtimestamp(time.mktime(published_struct))
-            if published_date < seven_days_ago:
-                # This can be noisy, so we'll comment it out unless debugging is needed.
-                # print(f"  - Skipped (old date): {title[:60]}...")
-                continue
+            if published_date < time_threshold: continue
 
             description = entry.get("summary", "")
             link = entry.get("link", "")
             content = (title + " " + description).lower()
             
-            if not any(keyword in content for keyword in keywords):
-                # This can also be very noisy.
-                # print(f"  - Skipped (no keywords): {title[:60]}...")
-                continue
-
-            if not link or is_duplicate(link, db_path):
-                # print(f"  - Skipped (duplicate): {title[:60]}...")
-                continue
+            if not any(keyword in content for keyword in keywords): continue
+            if not link or is_duplicate(link, db_path): continue
             
             with sqlite3.connect(db_path) as conn:
                 cursor = conn.cursor()
@@ -90,13 +76,11 @@ def fetch_and_store_news():
                     """, (title, description, link, published_date, source))
                     conn.commit()
                     articles_added += 1
-                    print(f"  + Added: {title[:60]}...")
                 except sqlite3.IntegrityError:
-                    print(f"  - Skipped (duplicate on insert): {title[:60]}...")
-                except Exception as e:
-                    print(f"An error occurred while inserting article: {e}")
+                    continue
     
-    print(f"\\nFinished. Total articles added: {articles_added}")
+    print()
+    print(f"Finished. Total articles added: {articles_added}")
 
 if __name__ == "__main__":
     fetch_and_store_news()

@@ -13,3 +13,8 @@ feedparser
 tqdm
 torch
 transformers
+xgboost
+lightgbm
+ta
+optuna
+shap

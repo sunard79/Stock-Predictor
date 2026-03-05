@@ -1,0 +1,21 @@
+======================================================================
+PER-MARKET SYSTEMATIC BACKTEST REPORT (3-DAY TARGET, XGB+LGB)
+======================================================================
+
+--- baseline ---
+Best Strategy:        xgb_only_dynamic
+Overall Accuracy:     53.2%
+Decisive Signals:     7727
+
+  Strategy Comparison:
+    xgb_only_static: 52.8% (7509 signals)
+    xgb_only_dynamic: 53.2% (7727 signals)
+    blend_static   : 52.8% (7974 signals)
+    blend_dynamic  : 53.0% (8202 signals)
+    agreement_static: 52.8% (6357 signals)
+    agreement_dynamic: 53.1% (6573 signals)
+
+  Market Breakdown (best strategy):
+    Commodities    : 54.0% (2227 signals)
+    Australia      : 53.2% (1810 signals)
+    US             : 52.6% (3690 signals)

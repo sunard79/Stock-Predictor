@@ -1,95 +1,16 @@
 import sqlite3
 import os
-import json
-import re
-from datetime import datetime
+import torch
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 from tqdm import tqdm
-
-# Attempt to load FinBERT locally
-try:
-    from transformers import AutoTokenizer, AutoModelForSequenceClassification
-    import torch
-    import torch.nn.functional as F
-    HAS_TRANSFORMERS = True
-except ImportError:
-    HAS_TRANSFORMERS = False
+import warnings
+warnings.filterwarnings('ignore')
 
 DB_PATH = "database/stocks.db"
-
-# Ticker and Geography Mapping
-TICKER_MAP = {
-    "SPY": ["spy", "s&p 500", "sp500", "index fund"],
-    "QQQ": ["qqq", "nasdaq", "tech stocks", "semiconductor", "ai stocks"],
-    "DIA": ["dia", "dow jones", "blue chip"],
-    "IWM": ["iwm", "russell 2000", "small cap"],
-    "^AXJO": ["axjo", "asx 200", "australian index", "sydney exchange"],
-    "EWA": ["ewa", "msci australia"],
-    "EWJ": ["ewj", "msci japan", "japanese market"],
-    "EWU": ["ewu", "msci uk", "united kingdom"],
-    "EWG": ["ewg", "msci germany", "dax"],
-    "MCHI": ["mchi", "msci china", "chinese stocks"],
-    "EWZ": ["ewz", "msci brazil"],
-    "GLD": ["gld", "gold price", "bullion"],
-    "SLV": ["slv", "silver price"],
-    "USO": ["uso", "oil price", "crude oil", "wti"],
-    "^VIX": ["vix", "volatility", "fear index"],
-    "TLT": ["tlt", "treasury bond", "interest rate"]
-}
-
-GEO_MAP = {
-    "United States": ["fed", "us economy", "wall street", "washington", "fomc", "powell"],
-    "Australia": ["australia", "rba", "asx", "sydney", "lowe", "bullock"],
-    "China": ["china", "beijing", "yuan", "chinese", "evergrande"],
-    "Japan": ["japan", "tokyo", "yen", "boj", "nikkei"],
-    "Europe": ["europe", "ecb", "euro", "lagarde", "ftse", "dax", "brexit"]
-}
-
-class LocalNLP:
-    def __init__(self):
-        if HAS_TRANSFORMERS:
-            print("Loading FinBERT model (this may take a minute on first run)...")
-            # ProsusAI/finbert is the industry standard for financial sentiment
-            self.tokenizer = AutoTokenizer.from_pretrained("ProsusAI/finbert")
-            self.model = AutoModelForSequenceClassification.from_pretrained("ProsusAI/finbert")
-        else:
-            print("Warning: 'transformers' or 'torch' not found. Falling back to rule-based sentiment.")
-            self.tokenizer = None
-            self.model = None
-
-    def get_sentiment(self, text):
-        """Returns (label, confidence) using FinBERT."""
-        if not self.tokenizer or not self.model:
-            return "neutral", 0.5
-        
-        inputs = self.tokenizer(text, return_tensors="pt", truncation=True, max_length=512)
-        with torch.no_grad():
-            outputs = self.model(**inputs)
-            probs = F.softmax(outputs.logits, dim=-1)
-            
-        # FinBERT labels: 0: positive, 1: negative, 2: neutral
-        # We map them to our schema: bullish, bearish, neutral
-        conf, label_idx = torch.max(probs, dim=-1)
-        mapping = {0: "bullish", 1: "bearish", 2: "neutral"}
-        return mapping[label_idx.item()], float(conf.item())
-
-    def extract_assets(self, text):
-        """Identifies affected assets based on keywords."""
-        text = text.lower()
-        found = []
-        for ticker, keywords in TICKER_MAP.items():
-            if any(k in text for k in keywords):
-                found.append(ticker)
-        return found[:5] if found else ["SPY"]
-
-    def extract_geo(self, text):
-        """Identifies primary geographic focus."""
-        text = text.lower()
-        for region, keywords in GEO_MAP.items():
-            if any(k in text for k in keywords):
-                return region
-        return "Global/Other"
+MODEL_NAME = "ProsusAI/finbert"
 
 def prepare_database():
+    """Ensures the 'news_analysis' table exists with the correct columns."""
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
         cursor.execute("""
@@ -97,79 +18,105 @@ def prepare_database():
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 article_id INTEGER,
                 sentiment_label TEXT,
+                sentiment_score REAL,
                 sentiment_confidence REAL,
-                sentiment_reasoning TEXT,
-                affected_assets TEXT,
-                asset_impact_reasoning TEXT,
-                geographic_focus TEXT,
+                weighted_sentiment REAL,
+                provider TEXT DEFAULT 'finbert',
                 analyzed_at DATETIME DEFAULT CURRENT_TIMESTAMP,
                 FOREIGN KEY (article_id) REFERENCES news_articles(id)
             );
         """)
+        
+        # Ensure 'weighted_sentiment' and 'provider' exist if table was created differently
+        cursor.execute("PRAGMA table_info(news_analysis)")
+        cols = [info[1] for info in cursor.fetchall()]
+        if 'weighted_sentiment' not in cols:
+            cursor.execute("ALTER TABLE news_analysis ADD COLUMN weighted_sentiment REAL")
+        if 'provider' not in cols:
+            cursor.execute("ALTER TABLE news_analysis ADD COLUMN provider TEXT DEFAULT 'finbert'")
+        
         conn.commit()
+    print("Database ready for FinBERT analysis.")
 
-def get_articles_for_analysis():
+def get_unanalyzed_articles():
+    """Fetches articles that haven't been analyzed by FinBERT yet."""
     with sqlite3.connect(DB_PATH) as conn:
         conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
         cursor.execute("""
             SELECT na.* FROM news_articles na
-            LEFT JOIN news_analysis res ON na.id = res.article_id
-            WHERE res.id IS NULL
+            WHERE na.id NOT IN (SELECT article_id FROM news_analysis WHERE provider = 'finbert')
         """)
         return cursor.fetchall()
 
-def main():
-    if not os.path.exists(DB_PATH):
-        print(f"Error: Database not found at {DB_PATH}")
-        return
-
+def run_finbert():
     prepare_database()
-    articles = get_articles_for_analysis()
+    articles = get_unanalyzed_articles()
     
     if not articles:
-        print("No new articles to analyze.")
+        print("No new articles to analyze with FinBERT.")
         return
 
-    nlp = LocalNLP()
-    print(f"Starting local analysis for {len(articles)} articles...")
+    print(f"Loading {MODEL_NAME}...")
+    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
+    model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME)
+    
+    # Move to GPU if available
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model.to(device)
+    model.eval()
 
+    print(f"Analyzing {len(articles)} articles on {device}...")
+    
     with sqlite3.connect(DB_PATH) as conn:
         cursor = conn.cursor()
-        for article in tqdm(articles, desc="Local NLP"):
-            text = f"{article['title']} {article['description']}"
+        
+        for art in tqdm(articles):
+            # Ticker articles have 'description' and 'title'
+            text = art['description'] or art['title']
+            if not text:
+                continue
+                
+            # Truncate text to fit model context window (usually 512 tokens)
+            inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True, max_length=512).to(device)
             
-            # 1. Sentiment
-            sentiment, confidence = nlp.get_sentiment(text)
+            with torch.no_grad():
+                outputs = model(**inputs)
+                probs = torch.nn.functional.softmax(outputs.logits, dim=-1)
+                
+            # FinBERT labels: 0 -> positive, 1 -> negative, 2 -> neutral
+            pos_prob = probs[0][0].item()
+            neg_prob = probs[0][1].item()
+            neu_prob = probs[0][2].item()
             
-            # 2. Assets
-            assets = nlp.extract_assets(text)
+            # Map to labels
+            labels = ["bullish", "bearish", "neutral"]
+            best_idx = torch.argmax(probs, dim=-1).item()
+            sentiment_label = labels[best_idx]
+            sentiment_confidence = probs[0][best_idx].item()
             
-            # 3. Geo
-            geo = nlp.extract_geo(text)
+            # Calculate weighted sentiment score (-1 to 1)
+            # Standard FinBERT mapping: positive - negative
+            weighted_sentiment = pos_prob - neg_prob
             
-            # 4. Generate local reasoning
-            reasoning = f"Local FinBERT model detected {sentiment} sentiment based on financial terminology."
-            impact_reasoning = f"Keywords related to {', '.join(assets)} were identified in the content."
+            try:
+                cursor.execute("""
+                    INSERT INTO news_analysis 
+                    (article_id, sentiment_label, sentiment_score, sentiment_confidence, weighted_sentiment, provider)
+                    VALUES (?, ?, ?, ?, ?, ?)
+                """, (
+                    art['id'],
+                    sentiment_label,
+                    weighted_sentiment, # redundant but safe
+                    sentiment_confidence,
+                    weighted_sentiment,
+                    'finbert'
+                ))
+                conn.commit()
+            except Exception as e:
+                print(f"Error saving analysis for ID {art['id']}: {e}")
 
-            cursor.execute("""
-                INSERT INTO news_analysis (
-                    article_id, sentiment_label, sentiment_confidence, sentiment_reasoning,
-                    affected_assets, asset_impact_reasoning, geographic_focus
-                ) VALUES (?, ?, ?, ?, ?, ?, ?)
-            """, (
-                article['id'],
-                sentiment,
-                confidence,
-                reasoning,
-                json.dumps(assets),
-                impact_reasoning,
-                geo
-            ))
-            conn.commit()
-
-    print()
-    print("Local analysis complete. Results stored in 'news_analysis' table.")
+    print("\nFinBERT analysis complete.")
 
 if __name__ == "__main__":
-    main()
+    run_finbert()
