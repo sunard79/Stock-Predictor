@@ -4,3 +4,4 @@ __pycache__
 *.db
 data/raw/*.csv
 .ipynb_checkpoints
+.claude/

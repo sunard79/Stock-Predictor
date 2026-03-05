@@ -3,12 +3,18 @@ import subprocess
 import pandas as pd
 from datetime import datetime
 
-def run_step(script_name, description):
+def run_step(script_command, description):
     print()
-    print(f">>> Step: {description} ({script_name})...")
+    print(f">>> Step: {description} ({script_command})...")
     try:
         import sys
-        result = subprocess.run([sys.executable, f"src/{script_name}"], capture_output=True, text=True)
+        # Split command to handle arguments
+        cmd_parts = script_command.split()
+        script_name = cmd_parts[0]
+        args = cmd_parts[1:]
+        
+        full_cmd = [sys.executable, f"src/{script_name}"] + args
+        result = subprocess.run(full_cmd, capture_output=True, text=True)
         if result.returncode != 0:
             print(f"Error in {script_name}: {result.stderr}")
             return False
@@ -24,11 +30,13 @@ def generate_report():
     print("====================================================")
 
     steps = [
-        ("news_collector.py", "Fetching Live RSS News"),
-        ("local_nlp_analyzer.py", "Running FinBERT Sentiment Analysis"),
-        ("map_news_to_tickers.py", "Mapping News to Assets"),
-        ("create_multi_asset_dashboard_data.py", "Updating Dashboard Dataset"),
-        ("predict_multi_asset.py", "Generating AI Predictions")
+        ("data_collection_multi_asset.py", "Updating Price & Macro Data"),
+        ("news_collector.py", "Fetching Live News Headlines"),
+        ("local_nlp_analyzer.py", "Running FinBERT Analysis"),
+        ("map_news_to_tickers.py", "Mapping News to Tickers"),
+        ("sector_sentiment.py", "Calculating Sector Momentum"),
+        ("feature_engineering_robust.py", "Building Robust Dataset"),
+        ("predict_multi_asset_v2.py --blend-mode agreement", "Generating AI Signals (v2)")
     ]
 
     for script, desc in steps:
