@@ -1,0 +1,32 @@
+ticker,asset_type,asset_name,market_group,is_tradeable
+DIA,US,Dow Jones ETF,Macro Anchor,0
+EEM,Macro,Emerging Markets ETF,Macro Anchor,0
+EPI,International,WisdomTree India Earnings ETF,Macro Anchor,0
+EWA,International,MSCI Australia ETF,Australia,1
+EWG,International,MSCI Germany ETF,Macro Anchor,0
+EWJ,International,MSCI Japan ETF,Macro Anchor,0
+EWU,International,MSCI United Kingdom ETF,Macro Anchor,0
+EWY,International,MSCI South Korea ETF,Macro Anchor,0
+EWZ,International,MSCI Brazil ETF,Macro Anchor,0
+FXI,International,iShares China Large-Cap ETF,Macro Anchor,0
+GDX,Macro,Gold Miners ETF,Macro Anchor,0
+GLD,Commodities,Gold Trust,Commodities,1
+HYG,Macro,High Yield Corporate Bond ETF,Macro Anchor,0
+IEF,Macro,7-10 Year Treasury Bond ETF,Macro Anchor,0
+IWM,US,Russell 2000 ETF,Macro Anchor,0
+KWEB,International,KraneShares China Internet ETF,Macro Anchor,0
+MCHI,International,MSCI China ETF,Macro Anchor,0
+QQQ,US,Nasdaq 100 ETF,US,1
+SLV,Commodities,Silver Trust,Commodities,1
+SPY,US,S&P 500 ETF,US,1
+TIP,Macro,TIPS Bond ETF,Macro Anchor,0
+TLT,Risk,20+ Yr Treasury Bond ETF,Macro Anchor,0
+USO,Commodities,United States Oil Fund,Commodities,1
+UUP,Macro,US Dollar Index Bullish Fund,Macro Anchor,0
+^AXJO,International,S&P/ASX 200 Index,Australia,1
+^HSI,International,Hang Seng Index,Macro Anchor,0
+^IRX,Macro,13-Week Treasury Bill Rate,Macro Anchor,0
+^N225,International,Nikkei 225,Macro Anchor,0
+^TNX,Macro,10-Year Treasury Yield,Macro Anchor,0
+^VIX,Risk,Volatility Index,Macro Anchor,0
+^VIX3M,Macro,VIX 3-Month Index,Macro Anchor,0

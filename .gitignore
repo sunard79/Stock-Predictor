@@ -4,3 +4,5 @@ __pycache__
 *.db
 data/raw/*.csv
 .ipynb_checkpoints
+SETUP_INSTRUCTIONS.txt
+PROJECT_OVERVIEW.txt
